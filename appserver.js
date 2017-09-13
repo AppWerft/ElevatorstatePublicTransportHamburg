@@ -1,22 +1,23 @@
 
-const server = require('express')();
-const db = require('devicesdb');
+const serverInstance = require('express')();
 const fetch = require('node-fetch');
+const devicesDB = require('./devicesdb');
+const elevatorStates = require('./elevatorstates'); 
 
 var cron;
-db.init(); 
+devicesDB.init(); 
 	
 // a device has subscribed to service and sends token:
-server.get('/add', function (req, res) {
-  db.add(res.token);
+serverInstance.get('/add', function (req, res) {
+  devicesDB.add(res.token);
 })
 // a device has unsubscribed to service and sends token:
-server.get('/remove', function (req, res) {
-  db.remove(res.token);
+serverInstance.get('/remove', function (req, res) {
+  devicesDB.remove(res.token);
 })
 
-// start server
-server.listen(80, function () {
+// start server on port 80 
+serverInstance.listen(80, function () {
   console.log('server started.');
   cron = setIntervall(_fetchState,1000);
 });
