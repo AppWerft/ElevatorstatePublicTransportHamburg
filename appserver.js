@@ -1,18 +1,19 @@
 
 const server = require('express')();
-var sqlite3 = require('sqlite3').verbose();
+var db = require('devicesdb');
 
 var cron;
 
- 
-var db = new sqlite3.Database('devices');
+db.init(); 
 	
-db.run('CREATE TABLE IF NOT EXISTS devices(token text, state int)');	
+
 
 server.get('/add', function (req, res) {
-  
+  db.add(res.token);
 })
-
+server.get('/remove', function (req, res) {
+  db.remove(res.token);
+})
 server.listen(80, function () {
   console.log('server started.');
   cron = setIntervall(_fetchState,1000);
