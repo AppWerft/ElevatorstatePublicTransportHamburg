@@ -24,7 +24,7 @@ serverInstance.listen(80, function () {
 
 // cronjob triggers this function to get states of all elevators
 function _fetchState() {
-    fetch('https://geofox.hvv.de/data-service/rest/elevators/stations/',{method:'GET',})
+    fetch('https://geofox.hvv.de/data-service/rest/elevators/stations/',{method:'GET'})
     .then(function(res) {
         return res.json();
     }).then(function(json) {
