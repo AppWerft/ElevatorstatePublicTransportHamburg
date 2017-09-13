@@ -9,11 +9,11 @@ devicesDB.init();
 	
 // a device has subscribed to service and sends token:
 serverInstance.get('/add', function (req, res) {
-  devicesDB.add(res.token);
+  devicesDB.add(res.query.token);
 })
 // a device has unsubscribed to service and sends token:
 serverInstance.get('/remove', function (req, res) {
-  devicesDB.remove(res.token);
+  devicesDB.remove(res.query.token);
 })
 
 // start server on port 80 
@@ -26,7 +26,7 @@ serverInstance.listen(80, function () {
 function _fetchState() {
     fetch('https://geofox.hvv.de/data-service/rest/elevators/stations/',{method:'GET'})
     .then(function(res) {
-        return res.json();
+        elevatorStates.update(res.json());
     }).then(function(json) {
         console.log(json);
     });
