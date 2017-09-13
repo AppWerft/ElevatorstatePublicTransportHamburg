@@ -7,6 +7,10 @@ module.exports = {
         return;
       }
       // extracting hash of all states
+        json.stations.forEach(function(s){
+            let id = s.gfxId;
+            Object.getOwnProperties(s).forEach(function(e));
+        })
         
       // make diff
         
