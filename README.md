@@ -5,7 +5,76 @@ API for monitoring state of elevators in Hamburg
 ### Live request
 
 On this page Geofox supports a json with states: http://geofox.hvv.de/jsf/showElevatorStates.seam. Unfortunatelly the lat/lon position are fictional and only for this special map. An example response can find [here](https://github.com/AppWerft/mobileHackathon2017/blob/master/listofelevatorstates.json)
-
+```
+{
+		"gfxId": "Master:11950",
+		"lon": -92.1464,
+		"lat": -208.9392,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Alsterpavillion <-> Schalterhalle",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> Zwischenebene (U2,U4)",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"C": {
+				"state": 1,
+				"description": "Zwischenebene <-> U2 Ri. Mümmelmannsberg und U4 Ri. Billstedt",
+				"label": "C",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 210,
+				"cabinWidth": 123,
+				"doorWidth": 89,
+				"instCause": ""
+			},
+			"D": {
+				"state": 1,
+				"description": "Zwischenebene <-> U2 Ri. Niendorf Nord und U4 Ri. HafenCity Universität",
+				"label": "D",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 210,
+				"cabinWidth": 123,
+				"doorWidth": 89,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_11950",
+			"stationName": "Jungfernstieg S1/S2/S3/U1",
+			"comment": "Haltestelle nicht barrierefrei"
+		},
+		"additionalSubStations": {
+			"Master_11950_U": {
+				"linkId": "Master_11950_U",
+				"stationName": "Jungfernstieg U2",
+				"lineKeys": ["HHA-U:U2_HHA-U_HHA-R"],
+				"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+			}
+		}
+	}
+```
 ### Overpass
 
 With [overpass](http://overpass-turbo.eu/) we can ask the database of OSM with his request:
