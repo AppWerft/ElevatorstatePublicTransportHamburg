@@ -8,7 +8,7 @@ On this page Geofox supports a json with states: http://geofox.hvv.de/jsf/showEl
 
 ### Overpass
 
-With [overpass](http://overpass-turbo.eu/) and this request:
+With [overpass](http://overpass-turbo.eu/) we can ask the database of OSM with his request:
 
 ```
 [out:json];
@@ -23,3 +23,4 @@ out body;
 out skel qt;
 (._;>;);out;
 ```
+and get 
