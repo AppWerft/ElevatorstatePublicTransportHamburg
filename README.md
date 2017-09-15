@@ -119,5 +119,5 @@ and get i.e.
   }
 },
 ```
-![](overpass.png)
+![](./assets/overpass.png)
 Unfortunatelly without reference to the id system of  GeoFox (gfxId)
