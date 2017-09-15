@@ -2,14 +2,14 @@
 
 const serverInstance = require('express')();
 const fetch = require('node-fetch');
-const devicesDB = require('./devicesdb');
 const elevatorStates = require('./elevatorstates'); 
 const GEOFOX_URL = 'https://geofox.hvv.de/data-service/rest/elevators/stations/',
   FCM_ENDPOINT = 'https://fcm.googleapis.com/fcm/send',
   FCM_APPID = '';
 
 
-var Devices = new devicesDB(); 
+var Devices = new require('./devicesdb')(); 
+var Fetcher = new require('elevatorstates')();
 	
 // a device has subscribed to service and sends token:
 serverInstance.get('/subscribe', function (req, res) {
@@ -27,6 +27,7 @@ serverInstance.listen(8888, function () {
   var cron = setInterval(_fetchStateAndGetDiff,60*1000);
 });
 
+Fetcher.start();
 
 
 async function _sendNotifications(diffs) {
