@@ -1,18 +1,18 @@
 # ElevatorstatePublicTransportHamburg
-API for monitoring state of elevators in Hamburg
+API for monitoring state of elevators in Hamburg. It is useful for wheelchair users and Mutties.
+
 ## Data sources
 
 What we need: 
 
-actual state informations for sending push notifications to device and we need real coordinates of elevators. Unfortunatally there is no public API.
+Actual state informations for sending push notifications to device and we need real coordinates of elevators. Unfortunatally there is no public API.
 What we have:
 
-Coordinates from ODSM and actual data from geofox. But thee is no reference.
+Coordinates from OSM and actual data from geofox. But there is no reference between. gfxId is no part of overpass entry.
 
 ### Live request from geofox
 
-On this page Geofox supports a json with states: 
-http://geofox.hvv.de/jsf/showElevatorStates.seam. Unfortunatelly the lat/lon position are fictional and only for this special map. An example response can find [here](https://github.com/AppWerft/mobileHackathon2017/blob/master/listofelevatorstates.json)
+[On this Geofox page](http://geofox.hvv.de/jsf/showElevatorStates.seam) we can get retreive actual data. Unfortunatelly the lat/lon position are fictional and only for this special map. An example response can find [here](https://github.com/AppWerft/mobileHackathon2017/blob/master/listofelevatorstates.json)
 
 ```
 {
