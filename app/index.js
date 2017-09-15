@@ -1,10 +1,10 @@
 "use strict"
 
 const serverInstance = require('express')();
-const fetch = require('node-fetch');
+
 const elevatorStates = require('./elevatorstates'); 
-const GEOFOX_URL = 'https://geofox.hvv.de/data-service/rest/elevators/stations/',
-  FCM_ENDPOINT = 'https://fcm.googleapis.com/fcm/send',
+
+const  FCM_ENDPOINT = 'https://fcm.googleapis.com/fcm/send',
   FCM_APPID = '';
 
 
@@ -28,6 +28,7 @@ serverInstance.listen(8888, function () {
 });
 
 Fetcher.start();
+Fetcher.on(data, _sendNotifications);
 
 
 async function _sendNotifications(diffs) {
@@ -56,18 +57,3 @@ async function _sendNotifications(diffs) {
     fetch(FCM_ENDPOINT,options)
        .then(res=>{}).catch((err=>{}));
 }
-// cronjob triggers this function to get states of all elevators
-let _fetchStateAndGetDiff=() => {
-  fetch(GEOFOX_URL,{method:'GET'})
-  .then(response => response.json().then(newJson => {
-    let diffs = elevatorStates.getDiff(newJson); 
-    if (diffs) {
-      _sendNotifications(diffs);
-    } else console.log("alles beim Alten ");
-  })
-    
-  ).catch(err => {
-    console.log(err);
-  });
-}
-// https://geofox.hvv.de/jsf/showElevatorStates.seam
