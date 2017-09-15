@@ -2,9 +2,18 @@
 API for monitoring state of elevators in Hamburg
 ## Data sources
 
-### Live request
+What we need: 
 
-On this page Geofox supports a json with states: http://geofox.hvv.de/jsf/showElevatorStates.seam. Unfortunatelly the lat/lon position are fictional and only for this special map. An example response can find [here](https://github.com/AppWerft/mobileHackathon2017/blob/master/listofelevatorstates.json)
+actual state informations for sending push notifications to device and we need real coordinates of elevators. Unfortunatally there is no public API.
+What we have:
+
+Coordinates from ODSM and actual data from geofox. But thee is no reference.
+
+### Live request from geofox
+
+On this page Geofox supports a json with states: 
+http://geofox.hvv.de/jsf/showElevatorStates.seam. Unfortunatelly the lat/lon position are fictional and only for this special map. An example response can find [here](https://github.com/AppWerft/mobileHackathon2017/blob/master/listofelevatorstates.json)
+
 ```
 {
 		"gfxId": "Master:11950",
@@ -34,30 +43,6 @@ On this page Geofox supports a json with states: http://geofox.hvv.de/jsf/showEl
 				"cabinWidth": 0,
 				"doorWidth": 0,
 				"instCause": ""
-			},
-			"C": {
-				"state": 1,
-				"description": "Zwischenebene <-> U2 Ri. Mümmelmannsberg und U4 Ri. Billstedt",
-				"label": "C",
-				"type": "DURCHLADER",
-				"tasterType": "KOMBI",
-				"lines": ["U2", "U4"],
-				"cabinLength": 210,
-				"cabinWidth": 123,
-				"doorWidth": 89,
-				"instCause": ""
-			},
-			"D": {
-				"state": 1,
-				"description": "Zwischenebene <-> U2 Ri. Niendorf Nord und U4 Ri. HafenCity Universität",
-				"label": "D",
-				"type": "DURCHLADER",
-				"tasterType": "KOMBI",
-				"lines": ["U2", "U4"],
-				"cabinLength": 210,
-				"cabinWidth": 123,
-				"doorWidth": 89,
-				"instCause": ""
 			}
 		},
 		"mainSubStation": {
@@ -75,10 +60,13 @@ On this page Geofox supports a json with states: http://geofox.hvv.de/jsf/showEl
 		}
 	}
 ```
+This data renders this map:
 ![](assets/geofox.png)
-### Overpass
+### Overpass 
 
-With [overpass](http://overpass-turbo.eu/) we can ask the database of OSM with his request:
+[Overpass](http://overpass-turbo.eu/) is a protocol to request data from OSM.
+
+With it we can ask the database of OSM with this request:
 
 ```
 [out:json];
@@ -94,6 +82,7 @@ out skel qt;
 (._;>;);out;
 ```
 and get i.e.
+
 ```
 {
   "type": "node",
@@ -120,5 +109,28 @@ and get i.e.
   }
 },
 ```
+This data renders this map:
+
 ![](./assets/overpass.png)
-Unfortunatelly without reference to the id system of  GeoFox (gfxId)
+
+# Server for sending notifications
+The nodeJS realized server has three tasks
+
+## Subscribe/unsubscribe devices
+For this run a http-server with endpoints 
+
+* /subscribe?token=TOKEN and 
+* /unsubscribe?token=TOKEN. 
+
+Both methods persist the tokens in a local sqlite database
+
+## Fetch data from geofox and detecting changes
+A simple periodically request retreives the JSON, extracts the states, saves in an array and in next step compares with lastest ones. Is there a diff then the push sender will started
+
+## Sending notification to devices
+
+The method get all deviceTokens from local database and sends all notifications.
+
+# Android  App
+
+The app subscribes to server app and receives notifications. In main view is a google map to show current states. In a second tab  is a list of elevators, sorted by distance to it.
