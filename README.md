@@ -23,4 +23,31 @@ out body;
 out skel qt;
 (._;>;);out;
 ```
-and get 
+and get i.e.
+```
+{
+  "type": "node",
+  "id": 430136424,
+  "lat": 53.5531786,
+  "lon": 9.9936662,
+  "tags": {
+    "description": "Straße/Schalterhalle",
+    "entrance": "yes",
+    "entrance_marker:s-train": "yes",
+    "entrance_marker:subway": "yes",
+    "entrance_name": "Jungfernstieg",
+    "highway": "elevator",
+    "manufacturer": "Lutz- Aufzüge",
+    "name": "Jungfernstieg",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "10909",
+    "since": "2006",
+    "toilets:wheelchair": "yes",
+    "tunnelsystem_jungfernstieg": "eingang",
+    "wheelchair": "yes",
+    "wheelchair:description": "Aufzug vom Jungfernstieg nach unten: Rolli-WC ohne Euroschlüssel- aber Toilettenpersonal bis 22:30"
+  }
+},
+```
+Unfortunatelly without reference to the id system of  GeoFox (gfxId)
