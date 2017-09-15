@@ -1,0 +1,3697 @@
+{
+	"stations": [{
+		"gfxId": "Master:8000089",
+		"lon": -607.4000000000001,
+		"lat": -214.0,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Fußgängertunnel <-> S3 und RE5 Ri. Hamburg Hbf",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["S3", "RE5"],
+				"cabinLength": 210,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"B": {
+				"state": -1,
+				"description": "Fußgängertunnel <-> RE5 Ri. Cuxhaven",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["RE5"],
+				"cabinLength": 210,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_8000089",
+			"stationName": "Stade",
+			"comment": "Rollstuhlfahrern wird eine Anmeldung empfohlen. Kontakt siehe Info, behindertenfreundliches WC"
+		}
+	}, {
+		"gfxId": "Master:81953",
+		"lon": -543.75,
+		"lat": -128.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> S1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["S1"],
+				"cabinLength": 140,
+				"cabinWidth": 92,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_81953",
+			"stationName": "Rissen",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:51989",
+		"lon": -462.6,
+		"lat": -358.0,
+		"elevators": {
+			"A": {
+				"state": 0,
+				"description": "Unterführung <-> S3 und RE5 Ri. Stade",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["RE5", "S3"],
+				"cabinLength": 130,
+				"cabinWidth": 91,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Unterführung <-> S3 Ri. Pinneberg, RE5 Ri. Hamburg HBF und RB33 Ri. Bremerhaven",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["RB33", "RE5", "S3"],
+				"cabinLength": 140,
+				"cabinWidth": 91,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_51989",
+			"stationName": "Buxtehude",
+			"comment": "behindertenfreundliches WC"
+		}
+	}, {
+		"gfxId": "Master:41951",
+		"lon": -236.7,
+		"lat": -363.99999999999983,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Unterführung <-> Bahnsteig S3 Ri. Pinneberg und S31 Ri. Altona",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "UNBEKANNT",
+				"lines": ["S31", "S3"],
+				"cabinLength": 134,
+				"cabinWidth": 110,
+				"doorWidth": 89,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Unterführung <-> Bahnsteig S3 Ri. Pinneberg und S31 Ri. Altona / S3 Ri. Stade",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "UNBEKANNT",
+				"lines": ["S31", "S3"],
+				"cabinLength": 155,
+				"cabinWidth": 110,
+				"doorWidth": 93,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_41951",
+			"stationName": "Neugraben",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:41950",
+		"lon": -159.25,
+		"lat": -364.76799999999986,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Schalterhalle <-> S3 und S31",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S3", "S31"],
+				"cabinLength": 224,
+				"cabinWidth": 93,
+				"doorWidth": 100,
+				"instCause": " "
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_41950",
+			"stationName": "Neuwiedenthal",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:11907",
+		"lon": -180.1,
+		"lat": -257.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang HafenCity Westseite <-> U3 Ri. Schlump-Barmbek",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 161,
+				"cabinWidth": 133,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Zugang HafenCity Westseite <-> U3 Ri. Wandsbek Gartenstadt",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 161,
+				"cabinWidth": 133,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_11907",
+			"stationName": "Baumwall (Elbphilharmonie)",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:11906",
+		"lon": -153.0,
+		"lat": -257.25,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Großer Burstah <-> U3 Ri. Schlump-Barmbek",
+				"label": "A",
+				"type": "WINKLIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 187,
+				"cabinWidth": 147,
+				"doorWidth": 110,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Zugang Großer Burstah <-> U3 Ri. Wandsbek Gartenstadt",
+				"label": "B",
+				"type": "WINKLIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 187,
+				"cabinWidth": 147,
+				"doorWidth": 110,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_11906",
+			"stationName": "Rödingsmarkt",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:42950",
+		"lon": -84.3536,
+		"lat": -364.51799999999986,
+		"elevators": {
+			"A": {
+				"state": 0,
+				"description": "Zugang Alter Postweg <-> S3 und S31",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S31", "S3"],
+				"cabinLength": 221,
+				"cabinWidth": 91,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_42950",
+			"stationName": "Heimfeld",
+			"comment": "Haltestelle nicht barrierefrei"
+		}
+	}, {
+		"gfxId": "Master:40950",
+		"lon": -17.0608,
+		"lat": -364.4392000000001,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Straße <-> Unterführung",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": [],
+				"cabinLength": 144,
+				"cabinWidth": 93,
+				"doorWidth": 89,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Unterführung <-> S3 und S31 Ri. Neugraben/Stade",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["S31", "S3"],
+				"cabinLength": 211,
+				"cabinWidth": 101,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"C": {
+				"state": 1,
+				"description": "Unterführung <-> S3 und S31 Ri. Altona/Pinneberg",
+				"label": "C",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S31", "S3"],
+				"cabinLength": 227,
+				"cabinWidth": 101,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_40950",
+			"stationName": "Harburg Rathaus",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:11941",
+		"lon": -65.0,
+		"lat": -295.25,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Osakaallee <-> Schalterhalle <-> U4",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U4"],
+				"cabinLength": 190,
+				"cabinWidth": 173,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_11941",
+			"stationName": "Überseequartier",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:11942",
+		"lon": -2.25,
+		"lat": -295.5,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Straßenebene <-> U4",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U4"],
+				"cabinLength": 210,
+				"cabinWidth": 143,
+				"doorWidth": 110,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_11942",
+			"stationName": "HafenCity Universität",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:81950",
+		"lon": -467.7,
+		"lat": -128.0,
+		"elevators": {
+			"A": {
+				"state": 0,
+				"description": "Schalterhalle <-> S1 und S11",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S1", "S11"],
+				"cabinLength": 180,
+				"cabinWidth": 92,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_81950",
+			"stationName": "Blankenese",
+			"comment": "Haltestelle nicht barrierefrei"
+		}
+	}, {
+		"gfxId": "Master:80957",
+		"lon": -443.0,
+		"lat": -128.0,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Schalterhalle <-> S1 und S11",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S1", "S11"],
+				"cabinLength": 210,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_80957",
+			"stationName": "Hochkamp",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:80956",
+		"lon": -415.1,
+		"lat": -128.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Fußgängertunnel <-> S1 und S11",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["S11", "S1"],
+				"cabinLength": 208,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_80956",
+			"stationName": "Klein Flottbek (Botanischer Garten)",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:80955",
+		"lon": -385.9,
+		"lat": -128.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Statthalterplatz <-> S1 und S11",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["S11", "S1"],
+				"cabinLength": 202,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_80955",
+			"stationName": "Othmarschen",
+			"comment": "Haltestelle nicht barrierefrei"
+		}
+	}, {
+		"gfxId": "Master:80953",
+		"lon": -332.5,
+		"lat": -165.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Übergang Fernverkehr <-> Zwischenebene mit Übergang zur S-Bahn <-> S1 Ri. Wedel/S3 Ri. Pinneberg",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["RB61", "RE6", "RE70", "S1", "S3", "RE7"],
+				"cabinLength": 160,
+				"cabinWidth": 100,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Busanlage <-> Zwischenebene mit Übergang zur S-Bahn <-> S1 Ri. Airport/Poppenbüttel, S3 Ri. Stade und S31 Ri. Harburg Rathaus",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["S3", "S31", "S1"],
+				"cabinLength": 157,
+				"cabinWidth": 100,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_80953",
+			"stationName": "Altona",
+			"comment": "behindertenfreundliches WC"
+		}
+	}, {
+		"gfxId": "Master:80954",
+		"lon": -359.9,
+		"lat": -138.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> S1 und S11",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S1", "S11"],
+				"cabinLength": 210,
+				"cabinWidth": 90,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_80954",
+			"stationName": "Bahrenfeld",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:84960",
+		"lon": -390.8999999999999,
+		"lat": -37.0,
+		"elevators": {
+			"A": {
+				"state": 0,
+				"description": "Schalterhalle <-> S21, S3 und A1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["A1", "S21", "S3"],
+				"cabinLength": 210,
+				"cabinWidth": 93,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_84960",
+			"stationName": "Eidelstedt",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:82950",
+		"lon": -425.5,
+		"lat": -3.0,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Zugang Elbgaustraße <-> S21 und S3",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": ["S21", "S3"],
+				"cabinLength": 203,
+				"cabinWidth": 93,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_82950",
+			"stationName": "Elbgaustraße",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:84952",
+		"lon": -356.5,
+		"lat": -70.5,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> S21 und S3",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S21", "S3"],
+				"cabinLength": 210,
+				"cabinWidth": 92,
+				"doorWidth": 99,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_84952",
+			"stationName": "Langenfelde",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:84951",
+		"lon": -270.5,
+		"lat": -122.5,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> S11, S21, S31",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["S11", "S21", "S31"],
+				"cabinLength": 140,
+				"cabinWidth": 91,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_84951",
+			"stationName": "Holstenstraße",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:84953",
+		"lon": -373.5,
+		"lat": -54.5,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Schalterhalle <-> S3 und S21",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S21", "S3"],
+				"cabinLength": 140,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_84953",
+			"stationName": "Stellingen (Arenen)",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:80950",
+		"lon": -196.60000000000002,
+		"lat": -232.0,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Zugang Hafentor <-> S1 und S3",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S1", "S2", "S3"],
+				"cabinLength": 210,
+				"cabinWidth": 110,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_80950",
+			"stationName": "Landungsbrücken",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:80900",
+		"lon": -196.8,
+		"lat": -201.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Reeperbahn <-> U3",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 150,
+				"cabinWidth": 114,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_80900",
+			"stationName": "St.Pauli",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:11952",
+		"lon": -163.0,
+		"lat": -231.5,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Herrengraben <-> S1 und S3",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S2", "S3", "S1"],
+				"cabinLength": 210,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_11952",
+			"stationName": "Stadthausbrücke",
+			"comment": "Haltestelle ist barrierefrei"
+		}
+	}, {
+		"gfxId": "Master:11911",
+		"lon": -196.9,
+		"lat": -176.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U3",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 210,
+				"cabinWidth": 93,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_11911",
+			"stationName": "Feldstraße (Heiligengeistfeld)",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:11950",
+		"lon": -92.1464,
+		"lat": -208.9392,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Alsterpavillion <-> Schalterhalle",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> Zwischenebene (U2,U4)",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"C": {
+				"state": 1,
+				"description": "Zwischenebene <-> U2 Ri. Mümmelmannsberg und U4 Ri. Billstedt",
+				"label": "C",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 210,
+				"cabinWidth": 123,
+				"doorWidth": 89,
+				"instCause": ""
+			},
+			"D": {
+				"state": 1,
+				"description": "Zwischenebene <-> U2 Ri. Niendorf Nord und U4 Ri. HafenCity Universität",
+				"label": "D",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 210,
+				"cabinWidth": 123,
+				"doorWidth": 89,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_11950",
+			"stationName": "Jungfernstieg S1/S2/S3/U1",
+			"comment": "Haltestelle nicht barrierefrei"
+		},
+		"additionalSubStations": {
+			"Master_11950_U": {
+				"linkId": "Master_11950_U",
+				"stationName": "Jungfernstieg U2",
+				"lineKeys": ["HHA-U:U2_HHA-U_HHA-R"],
+				"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+			}
+		}
+	}, {
+		"gfxId": "Master:11901",
+		"lon": -92.29999999999987,
+		"lat": -159.99999999999946,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Bahnsteig <-> Schalterhalle",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> Straße",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_11901",
+			"stationName": "Stephansplatz (Oper/CCH)",
+			"comment": "Haltestelle nicht barrierefrei"
+		}
+	}, {
+		"gfxId": "Master:11910",
+		"lon": -105.6712,
+		"lat": -167.8536,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Staatsoper <-> Schalterhalle",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 140,
+				"cabinWidth": 123,
+				"doorWidth": 89,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> U2",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2"],
+				"cabinLength": 210,
+				"cabinWidth": 114,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_11910",
+			"stationName": "Gänsemarkt (Oper)",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:11909",
+		"lon": -121.5856,
+		"lat": -151.6464,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Karolinenstraße/Hamburg Messe <-> Schalterhalle",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": [],
+				"cabinLength": 159,
+				"cabinWidth": 126,
+				"doorWidth": 109,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> U2",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2"],
+				"cabinLength": 175,
+				"cabinWidth": 135,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_11909",
+			"stationName": "Messehallen",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:84950",
+		"lon": -197.9,
+		"lat": -123.0,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Schalterhalle <-> S11, S21, S31",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["S21", "S31", "S11"],
+				"cabinLength": 163,
+				"cabinWidth": 93,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_84950",
+			"stationName": "Sternschanze (Messe)",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:84903",
+		"lon": -175.0,
+		"lat": -99.0,
+		"elevators": {
+			"A": {
+				"state": 0,
+				"description": "Schalterhalle <-> U3 Ri. Hauptbahnhof Süd-Wandsbek-Gartenstadt",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 150,
+				"cabinWidth": 115,
+				"doorWidth": 89,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> U3 Ri. Barmbek",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["U3"],
+				"cabinLength": 150,
+				"cabinWidth": 115,
+				"doorWidth": 89,
+				"instCause": ""
+			},
+			"C": {
+				"state": 1,
+				"description": "U3 Ri. Hauptbahnhof Süd-Wandsbek Gartenstadt <-> U2",
+				"label": "C",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U3", "U2"],
+				"cabinLength": 150,
+				"cabinWidth": 115,
+				"doorWidth": 89,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_84903",
+			"stationName": "Schlump",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:84902",
+		"lon": -207.3000000000001,
+		"lat": -47.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Christuskirche <-> U2",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2"],
+				"cabinLength": 210,
+				"cabinWidth": 94,
+				"doorWidth": 89,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_84902",
+			"stationName": "Christuskirche",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:84901",
+		"lon": -208.30000000000018,
+		"lat": -20.999999999999996,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U2",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2"],
+				"cabinLength": 210,
+				"cabinWidth": 94,
+				"doorWidth": 89,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_84901",
+			"stationName": "Emilienstraße",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:11951",
+		"lon": -117.7,
+		"lat": -127.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> S11, S21, S31",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": ["S21", "S31", "S11"],
+				"cabinLength": 158,
+				"cabinWidth": 101,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> Regional- und Fernverkehr",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": ["DB", "RE7", "RE70", "RB61"],
+				"cabinLength": 158,
+				"cabinWidth": 101,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_11951",
+			"stationName": "Dammtor (Messe/CCH)",
+			"comment": "behindertenfreundliches WC"
+		}
+	}, {
+		"gfxId": "Master:11900",
+		"lon": -92.0,
+		"lat": -88.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Rothenbaumchaussee <-> U1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 210,
+				"cabinWidth": 124,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_11900",
+			"stationName": "Hallerstraße",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:90907",
+		"lon": -118.0,
+		"lat": -43.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U3",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 172,
+				"cabinWidth": 123,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_90907",
+			"stationName": "Eppendorfer Baum",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:90905",
+		"lon": -92.5,
+		"lat": -55.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Eppendorfer Baum <-> U1",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 210,
+				"cabinWidth": 110,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_90905",
+			"stationName": "Klosterstern",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:90904",
+		"lon": -92.0,
+		"lat": -17.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1 Ri. Großhansdorf/Ohlstedt und U3 Ri. Wandsbek Gartenstadt",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U3", "U1"],
+				"cabinLength": 190,
+				"cabinWidth": 93,
+				"doorWidth": 92,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1 Ri. Norderstedt Mitte und U3 Ri. Barmbek",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U3", "U1"],
+				"cabinLength": 170,
+				"cabinWidth": 123,
+				"doorWidth": 110,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_90904",
+			"stationName": "Kellinghusenstraße",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:49950",
+		"lon": 127.2,
+		"lat": -360.0000000000001,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Busanlage <-> Zwischengeschoss",
+				"label": "A",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RB31", "RB41", "RE4", "RE5", "RE3"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "P+R-Haus <-> S3 und S31",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RB31", "RB41", "RE3", "RE4", "S31", "S3"],
+				"cabinLength": 130,
+				"cabinWidth": 98,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"C": {
+				"state": -1,
+				"description": "Zwischengeschoss <-> S3 und S31",
+				"label": "C",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["S31", "S3"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"D": {
+				"state": -1,
+				"description": "P+R-Haus <-> S3 und S31",
+				"label": "D",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "UNBEKANNT",
+				"lines": ["S31", "S3"],
+				"cabinLength": 130,
+				"cabinWidth": 100,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"E": {
+				"state": 1,
+				"description": "Schalterhalle <-> Regional- und Fernverkehr (Gleis 1+2)",
+				"label": "E",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["RB31", "RB41", "RE4", "RE3"],
+				"cabinLength": 130,
+				"cabinWidth": 90,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"F": {
+				"state": 1,
+				"description": "Schalterhalle <-> Regional- und Fernverkehr (Gleis 3+4)",
+				"label": "F",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["RB31", "RB41", "RE4", "RE3"],
+				"cabinLength": 160,
+				"cabinWidth": 100,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"G": {
+				"state": 1,
+				"description": "Schalterhalle <-> Regional- und Fernverkehr (Gleis 5+6)",
+				"label": "G",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": ["RB31", "RB41", "RE4", "RE5", "RE3"],
+				"cabinLength": 160,
+				"cabinWidth": 100,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"H": {
+				"state": -1,
+				"description": "Zwischengeschoss <-> S3 und S31",
+				"label": "H",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["S3", "S31"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_49950",
+			"stationName": "Harburg",
+			"comment": "Rollstuhlfahrern wird eine Anmeldung empfohlen. Kontakt siehe Info, behindertenfreundliches WC"
+		}
+	}, {
+		"gfxId": "Master:10906",
+		"lon": 63.0,
+		"lat": -263.0,
+		"elevators": {
+			"A": {
+				"state": 0,
+				"description": "Schalterhalle <-> U3",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 230,
+				"cabinWidth": 93,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Zugang Steintordamm <-> Schalterhalle (U1 und U3)",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 140,
+				"cabinWidth": 123,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"C": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1",
+				"label": "C",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["U1"],
+				"cabinLength": 152,
+				"cabinWidth": 120,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_10906",
+			"stationName": "Hauptbahnhof Süd",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:54951",
+		"lon": 133.19999999999993,
+		"lat": -333.0,
+		"elevators": {
+			"A": {
+				"state": 0,
+				"description": "Fußgängerbrücke <-> S3 und S31",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S31", "S3"],
+				"cabinLength": 210,
+				"cabinWidth": 91,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"B": {
+				"state": 0,
+				"description": "Fußgängerbrücke <-> Übergang Busanlage",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 210,
+				"cabinWidth": 91,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_54951",
+			"stationName": "Wilhelmsburg",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:54950",
+		"lon": 133.09999999999997,
+		"lat": -315.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> S31, S3",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["S3", "S31"],
+				"cabinLength": 215,
+				"cabinWidth": 92,
+				"doorWidth": 98,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_54950",
+			"stationName": "Veddel (BallinStadt)",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:10951",
+		"lon": 133.00000000000006,
+		"lat": -282.9999999999998,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Sachsenfeld <-> S3 und S31",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S3", "S31"],
+				"cabinLength": 100,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_10951",
+			"stationName": "Hammerbrook (City Süd)",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:21952",
+		"lon": 301.90320000000037,
+		"lat": -320.6712000000002,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Schalterhalle <-> S21, S2",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S21", "S2"],
+				"cabinLength": 140,
+				"cabinWidth": 140,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_21952",
+			"stationName": "Nettelnburg",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:25950",
+		"lon": 332.0,
+		"lat": -359.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> Bahnsteig Ri. Hauptbahnhof",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": ["S21", "S2"],
+				"cabinLength": 168,
+				"cabinWidth": 125,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> S21 und S2",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S21", "S2"],
+				"cabinLength": 170,
+				"cabinWidth": 106,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"C": {
+				"state": 1,
+				"description": "Schalterhalle <-> RE1 und Fernbahn",
+				"label": "C",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": ["RE1"],
+				"cabinLength": 164,
+				"cabinWidth": 100,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"D": {
+				"state": 0,
+				"description": "Zugang Busanlage <-> Schalterhalle <-> Zugang CCB",
+				"label": "D",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 210,
+				"cabinWidth": 93,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_25950",
+			"stationName": "Bergedorf",
+			"comment": "Bitte unter 01806/512512 (MobilitätsServiceZentrale) informieren, behindertenfreundliches WC"
+		}
+	}, {
+		"gfxId": "Master:21953",
+		"lon": 282.23200000000014,
+		"lat": -300.1712000000002,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> S21, S2",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S21", "S2"],
+				"cabinLength": 170,
+				"cabinWidth": 125,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_21953",
+			"stationName": "Allermöhe",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:21951",
+		"lon": 260.87840000000017,
+		"lat": -278.1712000000002,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> S21, S2",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "UNBEKANNT",
+				"lines": ["S2", "S21"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_21951",
+			"stationName": "Mittlerer Landweg",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:25951",
+		"lon": 395.8784000000001,
+		"lat": -352.69600000000037,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Zugang Busanlage <-> Schalterhalle",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 210,
+				"cabinWidth": 94,
+				"doorWidth": 89,
+				"instCause": ""
+			},
+			"B": {
+				"state": -1,
+				"description": "Schalterhalle <-> S21 Ri. Aumühle/Elbgaustraße",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S21"],
+				"cabinLength": 210,
+				"cabinWidth": 94,
+				"doorWidth": 89,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_25951",
+			"stationName": "Reinbek",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:25952",
+		"lon": 441.04960000000017,
+		"lat": -352.4888000000005,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Schalterhalle <-> S21 Ri. Aumühle/Elbgaustraße",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["S21"],
+				"cabinLength": 210,
+				"cabinWidth": 94,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_25952",
+			"stationName": "Wohltorf",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:25953",
+		"lon": 479.69999999999993,
+		"lat": -349.00000000000006,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Schalterhalle <-> S21 Ri. Elbgaustraße/RB11 Ri. Büchen",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["S21", "RB11"],
+				"cabinLength": 210,
+				"cabinWidth": 96,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_25953",
+			"stationName": "Aumühle",
+			"comment": "behindertenfreundliches WC"
+		}
+	}, {
+		"gfxId": "Master:10950",
+		"lon": 63.29999999999999,
+		"lat": -225.0000000000002,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Mönckebergstraße <-> Mönckebergtunnel, Südsteg",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 195,
+				"cabinWidth": 195,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> Bahnsteig S-Bahn, Richtung: Poppenbüttel, Aumühle, Neugraben",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["S1", "S2", "S21", "S3", "S31", "S11"],
+				"cabinLength": 160,
+				"cabinWidth": 99,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"C": {
+				"state": 1,
+				"description": "Nordsteg <-> Bahnsteig, Gleise 5+6",
+				"label": "C",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["RB61", "RB81", "RE1", "RE7", "RE80", "RE8"],
+				"cabinLength": 202,
+				"cabinWidth": 123,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"D": {
+				"state": 1,
+				"description": "Gallerie Wandelhalle <-> Nordsteg/ Bahnsteig, Gleise 7+8",
+				"label": "D",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RB31", "RB81", "RE1", "RE3", "RE80", "RE8"],
+				"cabinLength": 210,
+				"cabinWidth": 140,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"E": {
+				"state": 1,
+				"description": "Nordsteg <-> Gleise 11+12",
+				"label": "E",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["RB31", "RB41", "RB61", "RE4", "RE5", "RE3"],
+				"cabinLength": 202,
+				"cabinWidth": 123,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"F": {
+				"state": 1,
+				"description": "Nordsteg <-> Bahnsteig, Gleise 13+14",
+				"label": "F",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["RB31", "RB41", "RB61", "RE4", "RE5", "RE3"],
+				"cabinLength": 202,
+				"cabinWidth": 123,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"H": {
+				"state": 0,
+				"description": "Hachmannplatz <-> Bahnsteig S-Bahn, Richtung: Wedel, Altona, Pinneberg",
+				"label": "H",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["S1", "S2", "S21", "S3", "S31", "S11"],
+				"cabinLength": 168,
+				"cabinWidth": 99,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_10950",
+			"stationName": "Hamburg Hbf",
+			"comment": "Rollstuhlfahrern wird eine Anmeldung empfohlen. Kontakt siehe Info, behindertenfreundliches WC"
+		}
+	}, {
+		"gfxId": "Master:10905",
+		"lon": 63.29999999999998,
+		"lat": -187.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Glockengießerwall/Ernst-Merck-Straße <-> U2 Ri. Mümmelmannsberg und U4 Ri. Billstedt",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 151,
+				"cabinWidth": 123,
+				"doorWidth": 110,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Zugang Glockengießerwall/Ernst-Merck-Straße <-> U2 Ri. Niendorf Nord und U4 Ri. HafenCity Universität",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 151,
+				"cabinWidth": 123,
+				"doorWidth": 110,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_10905",
+			"stationName": "Hauptbahnhof Nord",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:10952",
+		"lon": 166.90000000000006,
+		"lat": -193.00000000000003,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U2 Ri. Niendorf Nord und U3 Ri. Schlump/Barmbek und U4 Ri. HafenCity Universität",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U3", "U4"],
+				"cabinLength": 216,
+				"cabinWidth": 93,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> U2 Ri. Mümmelmannsberg und U3 Ri. Wandsbek Gartenstadt und U4 Ri. Billstedt",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U3", "U4"],
+				"cabinLength": 216,
+				"cabinWidth": 93,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"C": {
+				"state": 1,
+				"description": "Zugang Beim Strohhause <-> Schalterhalle",
+				"label": "C",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 216,
+				"cabinWidth": 93,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_10952",
+			"stationName": "Berliner Tor",
+			"comment": "Haltestelle nicht barrierefrei"
+		},
+		"additionalSubStations": {
+			"Master_10952_U": {
+				"linkId": "Master_10952_U",
+				"stationName": "Berliner Tor (U-Bahn)",
+				"lineKeys": ["HHA-U:U2_HHA-U_HHA-R", "HHA-U:U3_HHA-U_HHA-R"],
+				"comment": ""
+			}
+		}
+	}, {
+		"gfxId": "Master:10908",
+		"lon": 251.5,
+		"lat": -188.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Busanlage <-> U2 und U4",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 210,
+				"cabinWidth": 124,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_10908",
+			"stationName": "Burgstraße",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:10953",
+		"lon": 240.0,
+		"lat": -148.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> S1 und S11",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["S1", "S11"],
+				"cabinLength": 208,
+				"cabinWidth": 91,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_10953",
+			"stationName": "Landwehr",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:70905",
+		"lon": 18.600000000000005,
+		"lat": -16.999999999999982,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U3",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 149,
+				"cabinWidth": 119,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_70905",
+			"stationName": "Borgweg (Stadtpark)",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:10901",
+		"lon": 182.5,
+		"lat": -111.5,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Landwehr <-> Schalterhalle",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": [],
+				"cabinLength": 147,
+				"cabinWidth": 124,
+				"doorWidth": 110,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 145,
+				"cabinWidth": 123,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_10901",
+			"stationName": "Wartenau",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:70904",
+		"lon": 167.268,
+		"lat": -80.7928,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Schürbeker Bogen <-> U3 Ri. Barmbek und Wandsbek-Gartenstadt",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 210,
+				"cabinWidth": 113,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Zugang Schürbeker Bogen <-> U3 Ri. Hauptbahnhof Süd/Schlump",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 210,
+				"cabinWidth": 113,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_70904",
+			"stationName": "Mundsburg",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:60951",
+		"lon": 223.0,
+		"lat": -71.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> S1 und S11",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["S11", "S1"],
+				"cabinLength": 210,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_60951",
+			"stationName": "Wandsbeker Chaussee",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		},
+		"additionalSubStations": {
+			"Master_60951_U": {
+				"linkId": "Master_60951_U",
+				"stationName": "Wandsbeker Chaussee (U-Bahn)",
+				"lineKeys": ["HHA-U:U1_HHA-U"],
+				"comment": "Haltestelle nicht barrierefrei"
+			}
+		}
+	}, {
+		"gfxId": "Master:70903",
+		"lon": 167.6216,
+		"lat": -60.5,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Wagnerstaße <-> U3 Ri. Hauptbahnhof Süd/Schlump",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 145,
+				"cabinWidth": 120,
+				"doorWidth": 110,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Zugang Wagnerstaße <-> U3 Ri. Barmbek und Wandsbek-Gartenstadt",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 145,
+				"cabinWidth": 120,
+				"doorWidth": 110,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_70903",
+			"stationName": "Hamburger Straße",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:70902",
+		"lon": 167.6216,
+		"lat": -39.6464,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U3 Ri. Hauptbahnhof Süd/Schlump",
+				"label": "A",
+				"type": "WINKLIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": ["U3"],
+				"cabinLength": 160,
+				"cabinWidth": 158,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> U3 Ri. Barmbek und Wandsbek- Gartenstadt",
+				"label": "B",
+				"type": "WINKLIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": ["U3"],
+				"cabinLength": 160,
+				"cabinWidth": 158,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_70902",
+			"stationName": "Dehnhaide",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:70950",
+		"lon": 166.20000000000002,
+		"lat": -16.999999999999996,
+		"elevators": {
+			"A": {
+				"state": 0,
+				"description": "Eingang: Pestalozzistraße,  Busanlage/ Schalterhalle",
+				"label": "A",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": [],
+				"cabinLength": 150,
+				"cabinWidth": 130,
+				"doorWidth": 90,
+				"instCause": "Ausser Betrieb."
+			},
+			"B": {
+				"state": 0,
+				"description": "Schalterhalle/ Bahnsteig, S-Bahn",
+				"label": "B",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["S11", "S1"],
+				"cabinLength": 150,
+				"cabinWidth": 115,
+				"doorWidth": 90,
+				"instCause": "Ausser Betrieb."
+			},
+			"C": {
+				"state": 1,
+				"description": "Schalterhalle <-> U3 Ri. Wandsbek-Gartenstadt und Schlump/Hauptbahnhof Süd",
+				"label": "C",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": ["U3"],
+				"cabinLength": 160,
+				"cabinWidth": 140,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"D": {
+				"state": 1,
+				"description": "Zugang Wiesendamm <-> Schalterhalle <-> U3 Ri. Hauptbahnhof Süd/Schlump",
+				"label": "D",
+				"type": "WINKLIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U3"],
+				"cabinLength": 201,
+				"cabinWidth": 142,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_70950",
+			"stationName": "Barmbek",
+			"comment": "Aufgrund von Umbauarbeiten vsl. bis Ende 2016 außer Betrieb"
+		}
+	}, {
+		"gfxId": "Master:60952",
+		"lon": 196.0,
+		"lat": -44.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> S1 und S11",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["S1", "S11"],
+				"cabinLength": 202,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_60952",
+			"stationName": "Friedrichsberg",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:10909",
+		"lon": 284.9,
+		"lat": -188.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U2 und U4",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 210,
+				"cabinWidth": 94,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_10909",
+			"stationName": "Hammer Kirche",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:61901",
+		"lon": 312.79999999999967,
+		"lat": -188.00000000000023,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Hammer Landstraße/U2 Ri. Mümmelmannsberg und U4 Ri. Billstedt <-> Schalterhalle",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 210,
+				"cabinWidth": 124,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> U2 Ri. Niendorf Nord und U4 Ri. HafenCity Universität",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 209,
+				"cabinWidth": 124,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_61901",
+			"stationName": "Rauhes Haus",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:61902",
+		"lon": 344.4,
+		"lat": -188.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang EKZ <-> U2 und U4",
+				"label": "A",
+				"type": "WINKLIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 132,
+				"cabinWidth": 130,
+				"doorWidth": 89,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_61902",
+			"stationName": "Horner Rennbahn",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:61903",
+		"lon": 375.0,
+		"lat": -188.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Legienstraße <-> U2 Ri. Mümmelmannsberg und U4 Ri. Billstedt",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 210,
+				"cabinWidth": 124,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Zugang Legienstraße <-> U2 Ri. Niendorf Nord und U4 Ri. HafenCity Universität",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 210,
+				"cabinWidth": 124,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_61903",
+			"stationName": "Legienstraße",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:61904",
+		"lon": 407.7,
+		"lat": -188.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang EKZ <-> Busanlage <-> U2 Ri. Niendorf Nord und U4 Ri. HafenCity Universität",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U2", "U4"],
+				"cabinLength": 160,
+				"cabinWidth": 124,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Zugang EKZ <-> Busanlage <-> U2 Ri. Mümmelmannsberg",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U2"],
+				"cabinLength": 160,
+				"cabinWidth": 124,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_61904",
+			"stationName": "Billstedt",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:22901",
+		"lon": 461.8,
+		"lat": -182.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U2 Ri. Mümmelmannsberg",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": ["U2"],
+				"cabinLength": 140,
+				"cabinWidth": 111,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> U2 Ri. Niendorf Nord",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": ["U2"],
+				"cabinLength": 140,
+				"cabinWidth": 111,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_22901",
+			"stationName": "Steinfurther Allee",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:22902",
+		"lon": 493.3,
+		"lat": -182.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Große Holl <-> U2",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U2"],
+				"cabinLength": 184,
+				"cabinWidth": 123,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_22902",
+			"stationName": "Mümmelmannsberg",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:60950",
+		"lon": 270.2000000000002,
+		"lat": -117.99999999999996,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Strassenniveau (neue Zugangsbrücke) <-> S1 und S11",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S1", "S11"],
+				"cabinLength": 210,
+				"cabinWidth": 110,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_60950",
+			"stationName": "Hasselbrook",
+			"comment": "Haltestelle nicht barrierefrei"
+		}
+	}, {
+		"gfxId": "Master:60902",
+		"lon": 258.1,
+		"lat": -28.99999999999999,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Wandsbeker Marktplatz <-> U1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 150,
+				"cabinWidth": 124,
+				"doorWidth": 110,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_60902",
+			"stationName": "Wandsbek Markt",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:8002560",
+		"lon": 359.99999999999994,
+		"lat": -25.0,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Eingang/ Bahnsteig",
+				"label": "A",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RB81"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_8002560",
+			"stationName": "Wandsbek",
+			"comment": "Bitte unter 01806/512512 (MobilitätsServiceZentrale) informieren, behindertenfreundliches WC"
+		}
+	}, {
+		"gfxId": "Master:8000238",
+		"lon": 515.5,
+		"lat": -462.0,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Empfangsgebäude, Bahnsteig,Gleis 1/ Fußgängertunnel",
+				"label": "A",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RB31", "RE3"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"B": {
+				"state": -1,
+				"description": "Fußgängertunnel/ Bahnsteig, Gleise 2+3",
+				"label": "B",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RB31", "RE3"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"C": {
+				"state": -1,
+				"description": "Fußgängertunnel/ Bahnsteig, Gleise 4+5",
+				"label": "C",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RE83"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"D": {
+				"state": -1,
+				"description": "Eingang, P+R/ Fußgängertunnel",
+				"label": "D",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": [],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_8000238",
+			"stationName": "Lüneburg",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:8005468",
+		"lon": 538.9000000000003,
+		"lat": -362.0000000000001,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Bahnsteig, Gleis 1/ Fußgängertunnel",
+				"label": "A",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RB11", "RE1"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"B": {
+				"state": -1,
+				"description": "Fußgängertunnel/ Bahnsteig, Gleise 3+4",
+				"label": "B",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RB11", "RE1"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"C": {
+				"state": -1,
+				"description": "Ladestraße, P+R/ Fußgängertunnel",
+				"label": "C",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": [],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_8005468",
+			"stationName": "Schwarzenbek",
+			"comment": "behindertenfreundliches WC"
+		}
+	}, {
+		"gfxId": "Master:83950",
+		"lon": -459.0,
+		"lat": 16.0,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Schalterhalle <-> S3",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["S3"],
+				"cabinLength": 203,
+				"cabinWidth": 121,
+				"doorWidth": 100,
+				"instCause": "ausser Betrieb"
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_83950",
+			"stationName": "Krupunder",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:99950",
+		"lon": -494.5,
+		"lat": 51.5,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Thesdorfer Weg <-> S3",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S3"],
+				"cabinLength": 210,
+				"cabinWidth": 126,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_99950",
+			"stationName": "Thesdorf",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:98950",
+		"lon": -477.5,
+		"lat": 34.5,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> S3",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["S3"],
+				"cabinLength": 210,
+				"cabinWidth": 93,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_98950",
+			"stationName": "Halstenbek",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:83960",
+		"lon": -388.80000000000007,
+		"lat": 42.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle/ Bahnsteig, Richtung: Boostedt",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["A1"],
+				"cabinLength": 210,
+				"cabinWidth": 110,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle/ Bahnsteig, Richtung: Eidelstedt",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["A1"],
+				"cabinLength": 210,
+				"cabinWidth": 110,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_83960",
+			"stationName": "Eidelstedt Zentrum",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:84900",
+		"lon": -208.0,
+		"lat": 5.000000000000023,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Heußweg <-> U2 Ri. Niendorf Nord",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2"],
+				"cabinLength": 210,
+				"cabinWidth": 94,
+				"doorWidth": 89,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Zugang Unnapark <-> U2 Ri. Mümmelmannsberg",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2"],
+				"cabinLength": 140,
+				"cabinWidth": 93,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_84900",
+			"stationName": "Osterstraße",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:83901",
+		"lon": -208.00000000000014,
+		"lat": 29.000000000000007,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Lutterothstraße <-> U2",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2"],
+				"cabinLength": 145,
+				"cabinWidth": 123,
+				"doorWidth": 89,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_83901",
+			"stationName": "Lutterothstraße",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:83900",
+		"lon": -208.30000000000015,
+		"lat": 52.99999999999999,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U2",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2"],
+				"cabinLength": 179,
+				"cabinWidth": 123,
+				"doorWidth": 89,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_83900",
+			"stationName": "Hagenbecks Tierpark",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:91903",
+		"lon": -208.50000000000006,
+		"lat": 102.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Fußgängerzone Tibarg <-> U2",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2"],
+				"cabinLength": 145,
+				"cabinWidth": 98,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_91903",
+			"stationName": "Niendorf Markt",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:90902",
+		"lon": -36.699999999999996,
+		"lat": 37.99999999999999,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 145,
+				"cabinWidth": 94,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_90902",
+			"stationName": "Lattenkamp (Sporthalle)",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:99651",
+		"lon": -63.0,
+		"lat": 114.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Eingang <-> Zwischengeschoss Nord",
+				"label": "A",
+				"type": "UNBEKANNT",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Parkhaus <-> Straßenebene Terminal 1 <-> Zwischenebene <-> S1",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S1"],
+				"cabinLength": 450,
+				"cabinWidth": 185,
+				"doorWidth": 140,
+				"instCause": ""
+			},
+			"C": {
+				"state": 1,
+				"description": "Parkhaus <-> Straßenebene Terminal 2 <-> Zwischenebene <-> S1",
+				"label": "C",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S1"],
+				"cabinLength": 450,
+				"cabinWidth": 185,
+				"doorWidth": 140,
+				"instCause": ""
+			},
+			"D": {
+				"state": 1,
+				"description": "Eingang <-> Zwischengeschoss Süd",
+				"label": "D",
+				"type": "UNBEKANNT",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_99651",
+			"stationName": "Hamburg Airport (Flughafen)",
+			"comment": "Rampe an der ersten Tür in Fahrtrichtung"
+		}
+	}, {
+		"gfxId": "Master:91901",
+		"lon": -208.60000000000005,
+		"lat": 149.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Straßenebene <-> U2 Ri. Niendorf Nord",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["U2"],
+				"cabinLength": 160,
+				"cabinWidth": 124,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Straßenebene <-> U2 Ri. Mümmelmannsberg",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2"],
+				"cabinLength": 160,
+				"cabinWidth": 124,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_91901",
+			"stationName": "Schippelsweg",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:91900",
+		"lon": -208.50000000000009,
+		"lat": 175.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Fußgängerzone <-> U2",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U2"],
+				"cabinLength": 140,
+				"cabinWidth": 125,
+				"doorWidth": 110,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_91900",
+			"stationName": "Niendorf Nord",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:92903",
+		"lon": -19.6,
+		"lat": 173.0,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Zugang Langenhorner Markt (P+R) <-> U1",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 138,
+				"cabinWidth": 87,
+				"doorWidth": 89,
+				"instCause": ""
+			},
+			"B": {
+				"state": -1,
+				"description": "Zugang Langenhorner Markt (P+R) <-> U1",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 138,
+				"cabinWidth": 87,
+				"doorWidth": 89,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_92903",
+			"stationName": "Langenhorn Markt",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:36902",
+		"lon": -69.8,
+		"lat": 224.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 150,
+				"cabinWidth": 120,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_36902",
+			"stationName": "Garstedt",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:36961",
+		"lon": -99.0,
+		"lat": 250.5,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Rathausallee/Heidbergstraße <-> U1 Ri. Großhansdorf/Ohlstedt und A2 Ri. Ulzburg Süd",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["A2", "U1"],
+				"cabinLength": 155,
+				"cabinWidth": 144,
+				"doorWidth": 99,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_36961",
+			"stationName": "Norderstedt Mitte",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:92901",
+		"lon": -44.9,
+		"lat": 199.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 160,
+				"cabinWidth": 123,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_92901",
+			"stationName": "Kiwittsmoor",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:92900",
+		"lon": -57.1,
+		"lat": 211.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Langenhorner Chaussee <-> U1",
+				"label": "A",
+				"type": "WINKLIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 202,
+				"cabinWidth": 132,
+				"doorWidth": 99,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_92900",
+			"stationName": "Ochsenzoll",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:37961",
+		"lon": -217.4,
+		"lat": 361.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle/ Bahnsteig, Richtung: Eidelstedt (A1) , A3 beide Richtungen",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["A3", "A1"],
+				"cabinLength": 210,
+				"cabinWidth": 93,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle/ Bahnsteig, Richtung: Boostedt (A1)",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["A1"],
+				"cabinLength": 210,
+				"cabinWidth": 93,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_37961",
+			"stationName": "Henstedt-Ulzburg",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:37960",
+		"lon": -192.9000000000001,
+		"lat": 385.99999999999994,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle/ Bahnsteig",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": ["A1"],
+				"cabinLength": 250,
+				"cabinWidth": 130,
+				"doorWidth": 110,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_37960",
+			"stationName": "Kaltenkirchen",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:70951",
+		"lon": 99.29999999999998,
+		"lat": 53.0,
+		"elevators": {
+			"A": {
+				"state": 0,
+				"description": "Schalterhalle <-> S1 und S11",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["S1", "S11"],
+				"cabinLength": 202,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": "vsl. bis 15.10.2017 wg. Bauarbeiten ausser Betrieb"
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_70951",
+			"stationName": "Alte Wöhr (Stadtpark)",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:90900",
+		"lon": 6.299999999999997,
+		"lat": 81.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 151,
+				"cabinWidth": 120,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_90900",
+			"stationName": "Sengelmannstraße (City Nord)",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:70952",
+		"lon": 62.8,
+		"lat": 89.0,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Zugang Hebebrandstraße <-> S1 und S11",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S1", "S11"],
+				"cabinLength": 210,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_70952",
+			"stationName": "Rübenkamp (City Nord)",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:90950",
+		"lon": 39.0,
+		"lat": 113.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 161,
+				"cabinWidth": 123,
+				"doorWidth": 110,
+				"instCause": ""
+			},
+			"B": {
+				"state": 0,
+				"description": "Schalterhalle <-> S1 und S11",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["S11", "S1"],
+				"cabinLength": 210,
+				"cabinWidth": 93,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_90950",
+			"stationName": "Ohlsdorf",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:71901",
+		"lon": 7.5,
+		"lat": 146.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 135,
+				"cabinWidth": 113,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_71901",
+			"stationName": "Fuhlsbüttel",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:71951",
+		"lon": 96.5,
+		"lat": 185.5,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Unterführung <-> S1 und S11",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "BRAILLE",
+				"lines": ["S1", "S11"],
+				"cabinLength": 202,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_71951",
+			"stationName": "Hoheneichen",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:71953",
+		"lon": 96.0,
+		"lat": 250.5,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle Überführung <-> S1 und S11",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["S1", "S11"],
+				"cabinLength": 210,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Zugang Busanlage <-> Überführung zur S-Bahn",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["S1", "S11"],
+				"cabinLength": 220,
+				"cabinWidth": 92,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_71953",
+			"stationName": "Poppenbüttel",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:8006197",
+		"lon": 360.00000000000006,
+		"lat": 38.0,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Fußgängertunnel/ Bahnsteig",
+				"label": "A",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RB81"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			},
+			"B": {
+				"state": -1,
+				"description": "Eingang/ Fußgängertunnel",
+				"label": "B",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": [],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_8006197",
+			"stationName": "Tonndorf",
+			"comment": "Bitte unter 01806/512512 (MobilitätsServiceZentrale) informieren, behindertenfreundliches WC"
+		}
+	}, {
+		"gfxId": "Master:63902",
+		"lon": 258.5,
+		"lat": 73.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1 Ri. Großhansdorf/Ohlstedt und Ankunft U3",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U1", "U3"],
+				"cabinLength": 153,
+				"cabinWidth": 123,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1 Ri. Norderstedt Mitte und U3 Ri. Hauptbahnhof Süd",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U1", "U3"],
+				"cabinLength": 153,
+				"cabinWidth": 123,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_63902",
+			"stationName": "Wandsbek-Gartenstadt",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:63901",
+		"lon": 257.8999999999997,
+		"lat": 93.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 200,
+				"cabinWidth": 94,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_63901",
+			"stationName": "Trabrennbahn",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:63900",
+		"lon": 257.9999999999997,
+		"lat": 112.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Bramfelder Weg <-> U1 Ri. Norderstedt Mitte",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 150,
+				"cabinWidth": 125,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Zugang Rahlstedter Weg/EKZ <-> U1 Ri. Großhansdorf/Ohlstedt",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 150,
+				"cabinWidth": 125,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_63900",
+			"stationName": "Farmsen",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:8002558",
+		"lon": 359.8,
+		"lat": 99.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Eingang/ Bahnsteig",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RB81"],
+				"cabinLength": 210,
+				"cabinWidth": 110,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_8002558",
+			"stationName": "Rahlstedt",
+			"comment": "Bitte unter 01806/512512 (MobilitätsServiceZentrale) informieren, behindertenfreundliches WC"
+		}
+	}, {
+		"gfxId": "Master:65900",
+		"lon": 257.89999999999964,
+		"lat": 131.00000000000003,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Berner Heerweg/Kriegweg <-> U1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 210,
+				"cabinWidth": 124,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_65900",
+			"stationName": "Berne",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:71904",
+		"lon": 258.5,
+		"lat": 174.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Halerreie <-> U1 Ri. Norderstedt Mitte",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 210,
+				"cabinWidth": 94,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Zugang Claus-Ferck-Straße <-> U1 Ri. Ohlstedt/Großhansdorf",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 160,
+				"cabinWidth": 123,
+				"doorWidth": 110,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_71904",
+			"stationName": "Volksdorf",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:71907",
+		"lon": 280.10000000000014,
+		"lat": 174.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Bahnsteig <-> Schalterhalle",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 210,
+				"cabinWidth": 110,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_71907",
+			"stationName": "Buchenkamp",
+			"comment": "Haltestelle nicht barrierefrei"
+		}
+	}, {
+		"gfxId": "Master:34900",
+		"lon": 307.6,
+		"lat": 173.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Bahnsteig <-> Schalterhalle",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 210,
+				"cabinWidth": 140,
+				"doorWidth": 110,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_34900",
+			"stationName": "Ahrensburg West",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:35901",
+		"lon": 376.3,
+		"lat": 173.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Bahnsteig <-> Schalterhalle",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 210,
+				"cabinWidth": 140,
+				"doorWidth": 110,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_35901",
+			"stationName": "Ahrensburg Ost",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:72902",
+		"lon": 259.0,
+		"lat": 202.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Zugang Brücke <-> Bahnsteig",
+				"label": "A",
+				"type": "UNBEKANNT",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_72902",
+			"stationName": "Buckhorn",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:72901",
+		"lon": 258.69999999999993,
+		"lat": 238.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 168,
+				"cabinWidth": 115,
+				"doorWidth": 99,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_72901",
+			"stationName": "Hoisbüttel",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:35902",
+		"lon": 410.0,
+		"lat": 174.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Bahnsteig <-> Schalterhalle",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 210,
+				"cabinWidth": 110,
+				"doorWidth": 90,
+				"instCause": ""
+			},
+			"B": {
+				"state": 1,
+				"description": "Schalterhalle <-> Straße",
+				"label": "B",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 210,
+				"cabinWidth": 110,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_35902",
+			"stationName": "Schmalenbeck",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:35904",
+		"lon": 474.5,
+		"lat": 173.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Schalterhalle <-> U1",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "BRAILLE",
+				"lines": ["U1"],
+				"cabinLength": 134,
+				"cabinWidth": 102,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_35904",
+			"stationName": "Großhansdorf",
+			"comment": "Einstieg für Rollstuhlfahrer im gekennzeichneten Bereich"
+		}
+	}, {
+		"gfxId": "Master:8000446",
+		"lon": 407.6000000000002,
+		"lat": 232.99999999999986,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Zugang von Haupteingang zum Haupt-Tunnel",
+				"label": "A",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0
+			},
+			"B": {
+				"state": -1,
+				"description": "Zugang vom Tunnel zu Gleis 1 und 2",
+				"label": "B",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["RB81", "RE80"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0
+			},
+			"C": {
+				"state": -1,
+				"description": "Zugang vom Tunnel zu Gleis 3 und 4",
+				"label": "C",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": ["RB81", "RE80"],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0
+			},
+			"D": {
+				"state": -1,
+				"description": "Zugang von Ladestraße zum Haupt-Tunnel",
+				"label": "D",
+				"type": "DURCHLADER",
+				"tasterType": "KOMBI",
+				"lines": [],
+				"cabinLength": 0,
+				"cabinWidth": 0,
+				"doorWidth": 0
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_8000446",
+			"stationName": "Ahrensburg",
+			"comment": "Bitte unter 01806/512512 (MobilitätsServiceZentrale) informieren, behindertenfreundliches WC"
+		}
+	}, {
+		"gfxId": "Master:72900",
+		"lon": 258.0,
+		"lat": 276.0,
+		"elevators": {
+			"A": {
+				"state": 1,
+				"description": "Bahnsteig <-> Straße",
+				"label": "A",
+				"type": "EINSEITIG_BEGEHBAR",
+				"tasterType": "KOMBI",
+				"lines": ["U1"],
+				"cabinLength": 210,
+				"cabinWidth": 110,
+				"doorWidth": 90,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_72900",
+			"stationName": "Ohlstedt",
+			"comment": ""
+		}
+	}, {
+		"gfxId": "Master:37979",
+		"lon": 468.5,
+		"lat": 294.0,
+		"elevators": {
+			"A": {
+				"state": -1,
+				"description": "Empfangsgebäude,  Bahnsteig, Gleis 3/ Fußgängertunnel",
+				"label": "A",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RB81", "RE8", "RE80", "RB82"],
+				"cabinLength": 193,
+				"cabinWidth": 121,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"B": {
+				"state": -1,
+				"description": "Fußgängertunnel/ Bahnsteig, Gleise 4+5",
+				"label": "B",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RB81", "RE8", "RE80", "RB82"],
+				"cabinLength": 193,
+				"cabinWidth": 122,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"C": {
+				"state": -1,
+				"description": "Fußgängertunnel/ Bahnsteig, Gleise 6+7",
+				"label": "C",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": ["RB81", "RE8", "RE80", "RB82"],
+				"cabinLength": 193,
+				"cabinWidth": 121,
+				"doorWidth": 100,
+				"instCause": ""
+			},
+			"D": {
+				"state": -1,
+				"description": "Zugang, Johannes-Ströh-Straße/ Fußgängertunnel",
+				"label": "D",
+				"type": "UNBEKANNT",
+				"tasterType": "UNBEKANNT",
+				"lines": [],
+				"cabinLength": 193,
+				"cabinWidth": 121,
+				"doorWidth": 100,
+				"instCause": ""
+			}
+		},
+		"mainSubStation": {
+			"linkId": "Master_37979",
+			"stationName": "Bad Oldesloe",
+			"comment": "behindertenfreundliches WC"
+		}
+	}],
+	"lastUpdate": 1504274554901
+}

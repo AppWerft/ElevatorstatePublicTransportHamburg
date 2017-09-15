@@ -1,0 +1,3217 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API",
+  "osm3s": {
+    "timestamp_osm_base": "2017-09-14T20:36:02Z",
+    "timestamp_areas_base": "2017-09-14T08:56:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 289398669,
+  "lat": 53.4606217,
+  "lon": 9.9805797,
+  "tags": {
+    "description": "Unterführung/Bahnsteig S3 Ri. Pinneberg u. S31 Ri. Altona",
+    "highway": "elevator",
+    "level": "-2;-1",
+    "manufacturer": "LUTZ-Aufzüge",
+    "ref": "12679",
+    "since": "2014"
+  }
+},
+{
+  "type": "node",
+  "id": 289398670,
+  "lat": 53.4607715,
+  "lon": 9.9804874,
+  "tags": {
+    "description": "Unterführung/Bahnsteig S3 Ri. Stade u. S31 Ri Neugraben",
+    "highway": "elevator",
+    "level": "-2;-1",
+    "manufacturer": "LUTZ-Aufzüge",
+    "ref": "12680",
+    "since": "2014"
+  }
+},
+{
+  "type": "node",
+  "id": 289583919,
+  "lat": 53.5459771,
+  "lon": 9.9666242,
+  "tags": {
+    "highway": "elevator",
+    "notes": "vway tags for level map demonstration only, see http://wiki.openstreetmap.org/wiki/Relations/Proposed/Level_Map",
+    "vway:highway": "service"
+  }
+},
+{
+  "type": "node",
+  "id": 289583925,
+  "lat": 53.5459802,
+  "lon": 9.9664954,
+  "tags": {
+    "highway": "elevator",
+    "notes": "vway tags for level map demonstration only, see http://wiki.openstreetmap.org/wiki/Relations/Proposed/Level_Map",
+    "vway:highway": "service"
+  }
+},
+{
+  "type": "node",
+  "id": 289583930,
+  "lat": 53.5459723,
+  "lon": 9.9667020,
+  "tags": {
+    "highway": "elevator",
+    "notes": "vway tags for level map demonstration only, see http://wiki.openstreetmap.org/wiki/Relations/Proposed/Level_Map",
+    "vway:highway": "service"
+  }
+},
+{
+  "type": "node",
+  "id": 289583941,
+  "lat": 53.5418882,
+  "lon": 9.9666831,
+  "tags": {
+    "highway": "elevator",
+    "notes": "vway tags for level map demonstration only, see http://wiki.openstreetmap.org/wiki/Relations/Proposed/Level_Map",
+    "vway:bicycle": "yes",
+    "vway:highway": "footway"
+  }
+},
+{
+  "type": "node",
+  "id": 289583942,
+  "lat": 53.5417684,
+  "lon": 9.9666289,
+  "tags": {
+    "highway": "elevator",
+    "notes": "vway tags for level map demonstration only, see http://wiki.openstreetmap.org/wiki/Relations/Proposed/Level_Map",
+    "vway:highway": "service"
+  }
+},
+{
+  "type": "node",
+  "id": 289583946,
+  "lat": 53.5417713,
+  "lon": 9.9664522,
+  "tags": {
+    "highway": "elevator",
+    "notes": "vway tags for level map demonstration only, see http://wiki.openstreetmap.org/wiki/Relations/Proposed/Level_Map",
+    "vway:highway": "service"
+  }
+},
+{
+  "type": "node",
+  "id": 289583947,
+  "lat": 53.5417700,
+  "lon": 9.9665321,
+  "tags": {
+    "highway": "elevator",
+    "notes": "vway tags for level map demonstration only, see http://wiki.openstreetmap.org/wiki/Relations/Proposed/Level_Map",
+    "vway:highway": "service"
+  }
+},
+{
+  "type": "node",
+  "id": 311476034,
+  "lat": 53.5458836,
+  "lon": 9.9664721,
+  "tags": {
+    "highway": "elevator",
+    "notes": "vway tags for level map demonstration only, see http://wiki.openstreetmap.org/wiki/Relations/Proposed/Level_Map",
+    "vway:bicycle": "yes",
+    "vway:highway": "footway"
+  }
+},
+{
+  "type": "node",
+  "id": 311476035,
+  "lat": 53.5458817,
+  "lon": 9.9667270,
+  "tags": {
+    "highway": "elevator",
+    "notes": "vway tags for level map demonstration only, see http://wiki.openstreetmap.org/wiki/Relations/Proposed/Level_Map",
+    "vway:bicycle": "yes",
+    "vway:highway": "footway"
+  }
+},
+{
+  "type": "node",
+  "id": 311476041,
+  "lat": 53.5418903,
+  "lon": 9.9663691,
+  "tags": {
+    "highway": "elevator",
+    "notes": "vway tags for level map demonstration only, see http://wiki.openstreetmap.org/wiki/Relations/Proposed/Level_Map",
+    "vway:bicycle": "yes",
+    "vway:highway": "footway"
+  }
+},
+{
+  "type": "node",
+  "id": 430136424,
+  "lat": 53.5531786,
+  "lon": 9.9936662,
+  "tags": {
+    "description": "Straße/Schalterhalle",
+    "entrance": "yes",
+    "entrance_marker:s-train": "yes",
+    "entrance_marker:subway": "yes",
+    "entrance_name": "Jungfernstieg",
+    "highway": "elevator",
+    "manufacturer": "Lutz- Aufzüge",
+    "name": "Jungfernstieg",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "10909",
+    "since": "2006",
+    "toilets:wheelchair": "yes",
+    "tunnelsystem_jungfernstieg": "eingang",
+    "wheelchair": "yes",
+    "wheelchair:description": "Aufzug vom Jungfernstieg nach unten: Rolli-WC ohne Euroschlüssel- aber Toilettenpersonal bis 22:30"
+  }
+},
+{
+  "type": "node",
+  "id": 541004319,
+  "lat": 53.6067154,
+  "lon": 10.1174218,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U1, Richtung: Großhansdorf/Ohlstedt",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "0;1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "941389",
+    "since": "1994",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 541004321,
+  "lat": 53.6067630,
+  "lon": 10.1172699,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U1, Richtung: Norderstedt Mitte",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "0;1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "941388",
+    "since": "1994",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 617825105,
+  "lat": 53.5718067,
+  "lon": 10.0673778,
+  "tags": {
+    "access": "customers",
+    "description": "Zugang Wandsbeker Marktplatz/Schalterhalle/Bahnsteig, U1 Ri. Norderstedt Mitte und Ohlstedt/Großhansdorf",
+    "highway": "elevator",
+    "level": "-2;-1;0",
+    "manufacturer": "KONE",
+    "name": "Wandsbeker Marktplatz Aufzug",
+    "operator": "HOCHBAHN",
+    "public_transport": "entrance",
+    "railway": "subway_entrance",
+    "ref": "170827",
+    "since": "2004",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 747245574,
+  "lat": 53.5581142,
+  "lon": 9.8601887,
+  "tags": {
+    "description": "Zugang Unterführung/Bahnsteig S1 Ri. Wedel und Airport/Poppenbüttel",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "OTIS",
+    "ref": "47KAE016",
+    "since": "2005"
+  }
+},
+{
+  "type": "node",
+  "id": 750726476,
+  "lat": 53.5501173,
+  "lon": 9.9855803,
+  "tags": {
+    "highway": "elevator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 993680971,
+  "lat": 53.5591998,
+  "lon": 9.8866160,
+  "tags": {
+    "description": "Zugang Statthalterplatz/Bahnsteig S1 Ri. Wedel und Airport/Poppenbüttel",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "ref": "281009047",
+    "since": "2011"
+  }
+},
+{
+  "type": "node",
+  "id": 1012172661,
+  "lat": 53.6496748,
+  "lon": 10.0172258,
+  "tags": {
+    "description": "Straße/Bahnsteig U1, Richtung: Norderstedt Mitte und Großhansdorf/Ohlstedt",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "HOCHBAHN",
+    "ref": "28100660X",
+    "since": "2006"
+  }
+},
+{
+  "type": "node",
+  "id": 1017876226,
+  "lat": 53.5612161,
+  "lon": 9.8423189,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig S1",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "ref": "281010005",
+    "since": "2010",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1040426825,
+  "lat": 53.5541967,
+  "lon": 10.0049828,
+  "tags": {
+    "access": "customers",
+    "description": "Straße/Bahnsteig U2 und U4, Richtung: Niendorf Nord und HafenCity Universität",
+    "highway": "elevator",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "1000964",
+    "since": "2006",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1040443943,
+  "lat": 53.5539172,
+  "lon": 10.0051282,
+  "tags": {
+    "access": "customers",
+    "building": "yes",
+    "description": "Straße/Bahnsteig U2, Richtung: Mümmelmannsberg",
+    "entrance": "yes",
+    "entrance_marker:subway": "yes",
+    "highway": "elevator",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "1000963",
+    "since": "2006",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1059369885,
+  "lat": 53.5425937,
+  "lon": 10.1070602,
+  "tags": {
+    "description": "Brücke/Straße/Bahnsteig U2, Richtung: Niendorf Nord",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "1;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "991539",
+    "since": "1999",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1059370138,
+  "lat": 53.5424896,
+  "lon": 10.1069632,
+  "tags": {
+    "description": "Brücke/Straße/Bahnsteig U2, Richtung: Mümmelmannsberg",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "1;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "991538",
+    "since": "1999",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1084412649,
+  "lat": 53.5700245,
+  "lon": 10.0598607,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig S1 Richtung Wedel und Hamburg Airport/ Poppenbüttel",
+    "highway": "elevator",
+    "level": "-1;0,",
+    "manufacturer": "OTIS",
+    "maxweight": "1.05",
+    "operator": "DB Station&Service",
+    "ref": "47KAE015",
+    "since": "2005",
+    "source": "DB",
+    "start_date": "2005"
+  }
+},
+{
+  "type": "node",
+  "id": 1097934398,
+  "lat": 53.4904206,
+  "lon": 10.1584604,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig S21 Ri. Aumühle und Elbgaustraße",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Hütter Aufzüge",
+    "ref": "981531",
+    "since": "1999",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1124822500,
+  "lat": 53.6325470,
+  "lon": 10.0264667,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Bahnsteig/Schalterhalle, U1 Richtung: Norderstedt Mitte und Großhansdorf/Ohlstedt",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "pedestrians": "yes",
+    "ref": "1001419",
+    "since": "2014",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1131519259,
+  "lat": 53.5742414,
+  "lon": 10.0372764,
+  "tags": {
+    "access": "customers",
+    "description": "Straße/Bahnsteig U3 Ri. Wandsbek-Gartenstadt",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "KOCH Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "170824",
+    "since": "2002",
+    "start_date": "2002",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1131519292,
+  "lat": 53.5742898,
+  "lon": 10.0370587,
+  "tags": {
+    "access": "customers",
+    "description": "Straße/Bahnsteig U3 Ri. Barmbek",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "KOCH Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "170823",
+    "since": "2002",
+    "start_date": "2002",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1131646649,
+  "lat": 53.5794731,
+  "lon": 10.0409686,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U3 Ri. HBF Süd/Schlump",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "941387",
+    "since": "1995",
+    "start_date": "1995"
+  }
+},
+{
+  "type": "node",
+  "id": 1131646673,
+  "lat": 53.5794111,
+  "lon": 10.0411363,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U3 Ri. Barmbek",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "941386",
+    "since": "1995",
+    "start_date": "1995",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1139550152,
+  "lat": 53.5760880,
+  "lon": 10.0574187,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig S1 Ri. Wedel und Airport/Poppenbüttel",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "maxweight": "1000 kg",
+    "operator": "DB Station&Service",
+    "ref": "281010061",
+    "since": "2011",
+    "source": "DB",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1222096669,
+  "lat": 53.6209587,
+  "lon": 10.0313577,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig, U1 Ri. Norderstedt Mitte und Großhansdorf/Ohlstedt",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Koch Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "169030",
+    "since": "2001"
+  }
+},
+{
+  "type": "node",
+  "id": 1254085504,
+  "lat": 53.5981453,
+  "lon": 10.1018726,
+  "tags": {
+    "description": "Bahnsteig/Schalterhalle, U1 Richtung: Norderstedt Mitte und Großhansdorf/Ohlstedt",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Koch",
+    "operator": "HOCHBAHN",
+    "ref": "170822",
+    "since": "2002"
+  }
+},
+{
+  "type": "node",
+  "id": 1260271217,
+  "lat": 53.5474866,
+  "lon": 9.9906858,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 1430567265,
+  "lat": 53.4897081,
+  "lon": 10.2062705,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig Regionalzüge, Gleis 1+2",
+    "highway": "elevator",
+    "level": "1;2",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "281009058",
+    "ref:operator_inventory": "10435731",
+    "since": "2009",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/"
+  }
+},
+{
+  "type": "node",
+  "id": 1450093208,
+  "lat": 53.5556442,
+  "lon": 9.9872331,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig U2, Richtung: Niendorf Nord/ Mümmelmannsberg",
+    "highway": "elevator",
+    "level": "-1;-2",
+    "manufacturer": "Kochaufzug",
+    "operator": "HOCHBAHN",
+    "ref": "170826",
+    "since": "2003"
+  }
+},
+{
+  "type": "node",
+  "id": 1540927470,
+  "lat": 53.5838372,
+  "lon": 10.0512676,
+  "tags": {
+    "construction": "2010",
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 1552132572,
+  "lat": 53.4895345,
+  "lon": 10.2068198,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Busanlage/Schalterhalle/Zugang CCB",
+    "highway": "elevator",
+    "level": "0;1;2",
+    "manufacturer": "OTIS GmbH & Co. OHG",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "47NAM712",
+    "ref:operator_inventory": "10467952",
+    "since": "2010",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1553556215,
+  "lat": 53.5518447,
+  "lon": 10.0052988,
+  "tags": {
+    "description": "Straße/Zwischenebene Südsteg",
+    "highway": "elevator",
+    "manufacturer": "Grako Aufzüge",
+    "ref": "552",
+    "since": "1995",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1586118582,
+  "lat": 53.5588702,
+  "lon": 9.9763213,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U2, Richtung: Niendorf Nord/ Mümmelmannsberg",
+    "highway": "elevator",
+    "level": "-2;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1000824",
+    "since": "2003"
+  }
+},
+{
+  "type": "node",
+  "id": 1586312408,
+  "lat": 53.5638292,
+  "lon": 10.0343922,
+  "tags": {
+    "description": "Schalterhalle/Straße",
+    "filter": "U Wartenau",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "Gustav AD. Koch",
+    "operator": "HOCHBAHN",
+    "ref": "150002",
+    "since": "1992",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1586312464,
+  "lat": 53.5643568,
+  "lon": 10.0348132,
+  "tags": {
+    "access": "customers",
+    "description": "Bahnsteig, U1 Ri. Norderstedt Mitte und Ohlstedt/Großhansdorf",
+    "filter": "U Wartenau",
+    "highway": "elevator",
+    "level": "-2;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001316",
+    "since": "2011",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1628464504,
+  "lat": 53.5890896,
+  "lon": 9.9912123,
+  "tags": {
+    "access": "customers",
+    "description": "Straße/Bahnsteig, U1 Ri. Großhansdorf/Ohlstedt und U3 Ri. Wandsbek-Gartenstadt",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001308",
+    "since": "2011",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1683608218,
+  "lat": 53.6201804,
+  "lon": 9.9517096,
+  "tags": {
+    "description": "Straße/Bahnsteig U2, Richtung: Niendorf Nord/Mümmelmannsberg",
+    "highway": "elevator",
+    "level": "-2;0",
+    "manufacturer": "Hütter Aufzüge",
+    "name": "Niendorf Markt",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "1001163",
+    "since": "2008",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1799448972,
+  "lat": 53.6504484,
+  "lon": 10.1633215,
+  "tags": {
+    "description": "Straße/Bahnsteig U1 Ri. Ohlstedt/Großhansdorf",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001065",
+    "since": "2007"
+  }
+},
+{
+  "type": "node",
+  "id": 1839062156,
+  "lat": 53.5530885,
+  "lon": 10.0224146,
+  "tags": {
+    "description": "Straße/Schalterhalle U2, U3, U4",
+    "entrance": "yes",
+    "entrance_marker:subway": "yes",
+    "highway": "elevator",
+    "indoor": "yes",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "1001321",
+    "since": "2012",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1839504488,
+  "lat": 53.4613313,
+  "lon": 9.9696289,
+  "tags": {
+    "highway": "elevator",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1852194471,
+  "lat": 53.5531629,
+  "lon": 10.0225693,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U2, Richtung: Mümmelmannsberg; U3, Richtung: Wandsbek-Gartenstadt; U4, Richtung: Billstedt",
+    "highway": "elevator",
+    "indoor": "yes",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001319",
+    "since": "2012",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1852194474,
+  "lat": 53.5533351,
+  "lon": 10.0224971,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U2, Richtung: Niendorf Nord; U3, Richtung: Schlump/Barmbek; U4, Richtung: HafenCity Universität",
+    "highway": "elevator",
+    "indoor": "yes",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001320",
+    "since": "2012",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1860670329,
+  "lat": 53.6409221,
+  "lon": 9.9500726,
+  "tags": {
+    "access": "customers",
+    "description": "Straße/Bahnsteig U2, Richtung: Mümmelmannsberg",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "Lutz Aufzüge",
+    "name": "Niendorf Nord",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "12896",
+    "since": "2015",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1919256402,
+  "lat": 53.4898802,
+  "lon": 10.2061578,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig S21 Ri. Aumühle und Elbgaustraße, Gleis 3+4",
+    "highway": "elevator",
+    "level": "1;2",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "281009059",
+    "ref:operator_inventory": "10435732",
+    "since": "2009",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/"
+  }
+},
+{
+  "type": "node",
+  "id": 1919256416,
+  "lat": 53.4899751,
+  "lon": 10.2060312,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig Gleis 5",
+    "highway": "elevator",
+    "level": "1;2",
+    "manufacturer": "Hütter Aufzüge",
+    "since": "1997"
+  }
+},
+{
+  "type": "node",
+  "id": 1944744061,
+  "lat": 53.6346659,
+  "lon": 9.9525907,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Straße/Bahnsteig U2, Richtung: Mümmelmannsberg",
+    "highway": "elevator",
+    "level": "-2;0",
+    "manufacturer": "H. Hütter JR.Hamburg",
+    "name": "Schippelsweg",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "891267",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2266604667,
+  "lat": 53.5483112,
+  "lon": 9.9870681,
+  "tags": {
+    "description": "Straße/Bahnsteig U3 Ri.Wandsbek-Gartenstadt",
+    "entrance": "yes",
+    "entrance_marker:subway": "yes",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "KOCH-Aufzüge",
+    "name": "U-Rödingsmarkt",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "170852",
+    "since": "2002",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2266604668,
+  "lat": 53.5483635,
+  "lon": 9.9868270,
+  "tags": {
+    "description": "Straße/Bahnsteig U3 Ri. Barmbek",
+    "entrance": "yes",
+    "entrance_marker:subway": "yes",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "KOCH-Aufzüge",
+    "name": "U-Rödingsmarkt",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "170826",
+    "since": "2002",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2269992877,
+  "lat": 53.5441081,
+  "lon": 9.9812646,
+  "tags": {
+    "description": "Straße/Bahnsteig U3 Ri. Wandsbek-Gartenstadt",
+    "entrance": "yes",
+    "entrance_marker:subway": "yes",
+    "highway": "elevator",
+    "level": "2;0",
+    "manufacturer": "GUSTAV AD. KOCH",
+    "name": "U-Bahn Baumwall",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "151582",
+    "since": "1992",
+    "wheelchair": "yes",
+    "wheelchair:description": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 2269992880,
+  "lat": 53.5442702,
+  "lon": 9.9812681,
+  "tags": {
+    "description": "Straße/Bahnsteig U3 Ri. Barmbek",
+    "entrance": "yes",
+    "entrance_marker:subway": "yes",
+    "highway": "elevator",
+    "level": "2;0",
+    "manufacturer": "GUSTAV AD. KOCH",
+    "name": "U-Bahn Baumwall",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "151581",
+    "since": "1992",
+    "wheelchair": "yes",
+    "wheelchair:description": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 2306804324,
+  "lat": 53.5514431,
+  "lon": 9.9876231,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 2398554904,
+  "lat": 53.5600664,
+  "lon": 9.9116045,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig S1 Ri. Wedel und Airport/Poppenbüttel",
+    "highway": "elevator",
+    "level": "1;0",
+    "manufacturer": "ThyssenKrupp",
+    "ref": "281010060",
+    "since": "2011"
+  }
+},
+{
+  "type": "node",
+  "id": 2446818928,
+  "lat": 53.4978178,
+  "lon": 10.0069420,
+  "tags": {
+    "description": "Überführung/ Zugang Busanlage",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "ref": "281012027",
+    "since": "2013"
+  }
+},
+{
+  "type": "node",
+  "id": 2458359649,
+  "lat": 53.5505894,
+  "lon": 10.0323953,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 2555387959,
+  "lat": 53.5497803,
+  "lon": 9.9853592,
+  "tags": {
+    "highway": "elevator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2560983745,
+  "lat": 53.5497579,
+  "lon": 9.9854036,
+  "tags": {
+    "highway": "elevator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2850965967,
+  "lat": 53.6517348,
+  "lon": 10.0930011,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Schalterhalle Überführung/Busanlage",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "ref": "281013003",
+    "since": "2013",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2850982348,
+  "lat": 53.5494185,
+  "lon": 9.9840959,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Zugang Herrengraben/Bahnsteig S3 Ri. Pinneberg und Stade sowie S1 Ri. Wedel und Hamburg Airport/Poppenbüttel",
+    "highway": "elevator",
+    "level": "0;-2",
+    "manufacturer": "ThyssenKrupp",
+    "name": "Stadthausbrücke",
+    "railway": "subway_entrance",
+    "ref": "281013015",
+    "since": "2013",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2884879931,
+  "lat": 53.5759039,
+  "lon": 9.9514321,
+  "tags": {
+    "description": "Straße/Bahnsteig U2, Richtung: Mümmelmannsberg",
+    "entrance": "yes",
+    "entrance_marker:subway": "yes",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001350",
+    "since": "2013",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2887687756,
+  "lat": 53.5762661,
+  "lon": 9.9519621,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Straße/Bahnsteig U2, Richtung: Niendorf Nord",
+    "entrance": "yes",
+    "entrance_marker:subway": "yes",
+    "foot": "yes",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001351",
+    "since": "2013",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3030635907,
+  "lat": 53.6093895,
+  "lon": 10.0221018,
+  "tags": {
+    "description": "Straße/Bahnsteig, U1 Ri. Norderstedt Mitte und Großhansdorf/Ohlstedt",
+    "highway": "elevator",
+    "level": "-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "921346",
+    "since": "1993",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3127387395,
+  "lat": 53.5404526,
+  "lon": 9.9989867,
+  "tags": {
+    "description": "Straße/Schallterhalle/Bahnsteig, U4 Ri. Billstedt und HafenCity Universität",
+    "highway": "elevator",
+    "level": "0;-1;-2",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001298",
+    "since": "2011"
+  }
+},
+{
+  "type": "node",
+  "id": 3134186286,
+  "lat": 53.5889982,
+  "lon": 9.9913681,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig, U1 Ri. Norderstedt Mitte und U3 Ri. Barmbek",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001309",
+    "since": "2011"
+  }
+},
+{
+  "type": "node",
+  "id": 3138429446,
+  "lat": 53.5785964,
+  "lon": 10.0516523,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 3140201212,
+  "lat": 53.5460867,
+  "lon": 10.0975405,
+  "tags": {
+    "description": "Straße/Bahnsteig U2, Richtung: Mümmelmannsberg",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "Lutz Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "12844",
+    "since": "2015"
+  }
+},
+{
+  "type": "node",
+  "id": 3140201213,
+  "lat": 53.5465765,
+  "lon": 10.0979281,
+  "tags": {
+    "description": "Straße/Bahnsteig U2, Richtung: Niendorf Nord",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "Lutz Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "12845",
+    "since": "2015"
+  }
+},
+{
+  "type": "node",
+  "id": 3255988851,
+  "lat": 53.5605071,
+  "lon": 9.9898759,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig Regional- und Fernverkehr",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station&Service",
+    "ref": "281010053",
+    "since": "2011",
+    "source": "survey",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3255988854,
+  "lat": 53.5605963,
+  "lon": 9.9900654,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig S11, S21, S31",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station&Service",
+    "ref": "281010052",
+    "since": "2012",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3260318503,
+  "lat": 53.5532640,
+  "lon": 10.0077840,
+  "tags": {
+    "description": "Straße/Bahnsteig , Gleis 1+2 (S-Bahn)",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "Brobeil Aufzüge GmbH & Co. KG",
+    "operator": "DB Station&Service",
+    "ref:manufacturer_inventory": "046952",
+    "ref:operator_inventory": "10028020",
+    "since": "2004",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3274859562,
+  "lat": 53.5612205,
+  "lon": 10.0380305,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig S1 Richtung Wedel und Hamburg Airport/ Poppenbüttel",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station & Service",
+    "ref": "281010050",
+    "since": "2011",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3291923457,
+  "lat": 53.6272973,
+  "lon": 10.1402474,
+  "tags": {
+    "description": "Bahnsteig/Brücke, U1 Richtung: Norderstedt Mitte und Großhansdorf/Ohlstedt",
+    "highway": "elevator",
+    "indoor": "yes",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001424",
+    "since": "2014",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3292890448,
+  "lat": 53.6518199,
+  "lon": 10.0938365,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Schalterhalle Überführung/Bahnsteig S1 Ri. Wedel und Airport",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "ref": "281011068",
+    "since": "2012",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3336148586,
+  "lat": 53.5405868,
+  "lon": 10.0075188,
+  "tags": {
+    "description": "Straße/Bahnsteig, U4 Ri. Billstedt",
+    "highway": "elevator",
+    "level": "0;-2",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001299",
+    "since": "2011",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3499317789,
+  "lat": 53.5519117,
+  "lon": 10.0086812,
+  "tags": {
+    "description": "Straße/Schalterhalle",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "951436",
+    "since": "1996"
+  }
+},
+{
+  "type": "node",
+  "id": 3502972685,
+  "lat": 53.5531808,
+  "lon": 10.0061578,
+  "tags": {
+    "description": "Wandelhalle/Bahnsteig Gleis 11+12",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "-1;0",
+    "manufacturer": "OTIS GmbH & Co. OHG",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "47KAE861",
+    "ref:operator_inventory": "10028029",
+    "since": "2006",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3502973011,
+  "lat": 53.5535736,
+  "lon": 10.0064735,
+  "tags": {
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "0;1",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3504629453,
+  "lat": 53.5531197,
+  "lon": 10.0058804,
+  "tags": {
+    "description": "Wandelhalle/Bahnsteig Gleis 13+14",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "-1;0",
+    "operator": "DB Station & Service",
+    "ref:operator_inventory": "10028019",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3504629464,
+  "lat": 53.5531468,
+  "lon": 10.0073258,
+  "tags": {
+    "description": "Wandelhalle/Bahnsteig Gleis 3+4 (S-Bahn)",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "-1;0",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "046953",
+    "ref:operator_inventory": "10028021",
+    "since": "2004",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3504633106,
+  "lat": 53.5532862,
+  "lon": 10.0066569,
+  "tags": {
+    "description": "Wandelhalle/Bahnsteig Gleis 7+8",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "-1;0;1",
+    "operator": "DB Station & Service",
+    "ref:operator_inventory": "10028028",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3504633117,
+  "lat": 53.5533441,
+  "lon": 10.0069393,
+  "tags": {
+    "description": "Wandelhalle/Bahnsteig Gleis 5+6",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "-1;0",
+    "manufacturer": "OTIS GmbH & Co. OHG",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "47KAE858",
+    "ref:operator_inventory": "10028022",
+    "since": "2006",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3504633130,
+  "lat": 53.5534809,
+  "lon": 10.0072376,
+  "tags": {
+    "highway": "elevator",
+    "indoor": "yes",
+    "operator": "DB Station & Service",
+    "ref:operator_inventory": "10276624",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3506204768,
+  "lat": 53.5902196,
+  "lon": 9.9748811,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug Blau"
+  }
+},
+{
+  "type": "node",
+  "id": 3506204769,
+  "lat": 53.5912106,
+  "lon": 9.9738722,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug Grün"
+  }
+},
+{
+  "type": "node",
+  "id": 3506204770,
+  "lat": 53.5899512,
+  "lon": 9.9751328,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug Parkhaus"
+  }
+},
+{
+  "type": "node",
+  "id": 3506204771,
+  "lat": 53.5910467,
+  "lon": 9.9737018,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3508278652,
+  "lat": 53.5906863,
+  "lon": 9.9741384,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3537759230,
+  "lat": 53.6043484,
+  "lon": 10.1536637,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 3540013471,
+  "lat": 53.5701329,
+  "lon": 10.0780753,
+  "tags": {
+    "highway": "elevator",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3602199206,
+  "lat": 53.5589664,
+  "lon": 9.9756876,
+  "tags": {
+    "description": "Straße/Schalterhalle",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "901300",
+    "since": "1991"
+  }
+},
+{
+  "type": "node",
+  "id": 3607421672,
+  "lat": 53.5558634,
+  "lon": 9.9889779,
+  "tags": {
+    "access": "private",
+    "amenity": "parking_entrance",
+    "highway": "elevator",
+    "lit": "yes",
+    "parking": "underground"
+  }
+},
+{
+  "type": "node",
+  "id": 3613463094,
+  "lat": 53.5520185,
+  "lon": 10.0115733,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 3659961284,
+  "lat": 53.5691121,
+  "lon": 10.0271209,
+  "tags": {
+    "access": "customers",
+    "description": "Straße/Bahnsteig U3 Ri. Wandsbek-Gartenstadt",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "1001420",
+    "since": "2014",
+    "start_date": "Mar 2015",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3659961285,
+  "lat": 53.5691726,
+  "lon": 10.0270366,
+  "tags": {
+    "access": "customers",
+    "description": "Straße/Bahnsteig U3 Ri. Barmbek",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "1001421",
+    "since": "2014",
+    "start_date": "Mar 2015",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3662505949,
+  "lat": 53.5871921,
+  "lon": 10.0439099,
+  "tags": {
+    "description": "Straße/Schalterhalle/Bahnsteig U3 Ri. HBF Süd, Schlump",
+    "highway": "elevator",
+    "level": "0;1;2",
+    "manufacturer": "Hütter Aufzüge",
+    "ref": "1001271",
+    "since": "2010"
+  }
+},
+{
+  "type": "node",
+  "id": 3662505950,
+  "lat": 53.5873539,
+  "lon": 10.0440304,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U3 Ri. Schlump, HBF Süd/ Wandsbek-Gartenstadt",
+    "highway": "elevator",
+    "level": "1;2",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001270",
+    "since": "2010"
+  }
+},
+{
+  "type": "node",
+  "id": 3662505968,
+  "lat": 53.5907847,
+  "lon": 10.0151254,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U3 Ri. Barmbek/Wandsbek-Gartenstadt",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "931352",
+    "since": "1993"
+  }
+},
+{
+  "type": "node",
+  "id": 3667873533,
+  "lat": 53.4976364,
+  "lon": 10.1321198,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig S21 Ri. Aumühle und Elbgaustraße",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "0;1",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3669187240,
+  "lat": 53.5936106,
+  "lon": 9.9436808,
+  "tags": {
+    "description": "Straße/Bahnsteig U2, Richtung: Niendorf Nord/Mümmelmannsberg",
+    "highway": "elevator",
+    "indoor": "yes",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001211",
+    "since": "2009",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3679024767,
+  "lat": 53.5459779,
+  "lon": 9.9665625,
+  "tags": {
+    "highway": "elevator",
+    "notes": "vway tags for level map demonstration only, see http://wiki.openstreetmap.org/wiki/Relations/Proposed/Level_Map",
+    "vway:highway": "service"
+  }
+},
+{
+  "type": "node",
+  "id": 3680956449,
+  "lat": 53.5834578,
+  "lon": 9.9849441,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U3 Ri. Barmbek/Wandsbek-Gartenstadt",
+    "highway": "elevator",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001393",
+    "since": "2013",
+    "start_date": "Apr 2014",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3734588898,
+  "lat": 53.5566587,
+  "lon": 9.9659193,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 3760983383,
+  "lat": 53.5903159,
+  "lon": 9.9753648,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3760983384,
+  "lat": 53.5906618,
+  "lon": 9.9763684,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3760983385,
+  "lat": 53.5909674,
+  "lon": 9.9758832,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3760983386,
+  "lat": 53.5910145,
+  "lon": 9.9759405,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3760983387,
+  "lat": 53.5910341,
+  "lon": 9.9749902,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3760992684,
+  "lat": 53.5917830,
+  "lon": 9.9787531,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3761029057,
+  "lat": 53.5919277,
+  "lon": 9.9753337,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3761029058,
+  "lat": 53.5913260,
+  "lon": 9.9758457,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3761029059,
+  "lat": 53.5915443,
+  "lon": 9.9758641,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3771857695,
+  "lat": 53.5877938,
+  "lon": 9.9711986,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3771857696,
+  "lat": 53.5878389,
+  "lon": 9.9713191,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3771857697,
+  "lat": 53.5879953,
+  "lon": 9.9709966,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3774699264,
+  "lat": 53.5973642,
+  "lon": 10.0355388,
+  "tags": {
+    "access": "no",
+    "description": "Schalterhalle/Bahnsteig S1 Ri. Wedel und Airport/Poppenbüttel",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station & Service",
+    "ref": "281010062",
+    "since": "2011"
+  }
+},
+{
+  "type": "node",
+  "id": 3776773505,
+  "lat": 53.5722500,
+  "lon": 9.9889964,
+  "tags": {
+    "access": "customers",
+    "description": "Straße/Bahnsteig, U1 Ri. Norderstedt Mitte und Großhansdorf/Ohlstedt",
+    "highway": "elevator",
+    "indoor": "yes",
+    "manufacturer": "M.S. Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "2594",
+    "since": "2015",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3796250211,
+  "lat": 53.5679758,
+  "lon": 9.9699299,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U3, Richtung: Hbf Süd/Wandsbek Gartenstadt",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "931356",
+    "since": "1994",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3808221416,
+  "lat": 53.6210249,
+  "lon": 10.0318865,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig, S1 Ri. Wedel und Airport/Poppenbüttel",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "OTIS",
+    "ref": "47NAL542",
+    "since": "2010"
+  }
+},
+{
+  "type": "node",
+  "id": 3820402235,
+  "lat": 53.5540029,
+  "lon": 10.0669107,
+  "tags": {
+    "description": "Straße/Bahnsteig U2 und U4, Richtung: Mümmelmannsberg",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "M.S. Aufzüge.",
+    "operator": "HOCHBAHN",
+    "ref": "2592",
+    "since": "2015"
+  }
+},
+{
+  "type": "node",
+  "id": 3833115434,
+  "lat": 53.5208229,
+  "lon": 10.0127961,
+  "tags": {
+    "access": "yes",
+    "bicycle": "yes",
+    "brand": "ThyssenKrupp",
+    "building": "yes",
+    "capacity": "13",
+    "description": "Bahnsteig/Straße S3 Ri.Pinneberg und Stade und S31 Ri. Harburg Rathaus und Altona",
+    "highway": "elevator",
+    "level": "-1;1",
+    "maxweight": "1",
+    "ref": "281010063",
+    "since": "2011",
+    "speech_output:de": "yes",
+    "tactile_writing:braille:de": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3833596542,
+  "lat": 53.6066319,
+  "lon": 10.0328930,
+  "tags": {
+    "description": "Zugang Hebebrandstraße/Bahnsteig S1 Ri. Wedel und Airport/Poppenbüttel",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station&Service",
+    "ref": "281010059",
+    "since": "2011",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3840746347,
+  "lat": 53.5649061,
+  "lon": 10.0566749,
+  "tags": {
+    "access": "customers",
+    "foot": "yes",
+    "highway": "elevator",
+    "operator": "DB Station&Service"
+  }
+},
+{
+  "type": "node",
+  "id": 3870107978,
+  "lat": 53.5695526,
+  "lon": 9.9625650,
+  "tags": {
+    "description": "Straße/Bahnsteig U2, Richtung: Niendorf Nord/ Mümmelmannsberg",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001378",
+    "since": "2013"
+  }
+},
+{
+  "type": "node",
+  "id": 3881200627,
+  "lat": 53.4559061,
+  "lon": 9.9875762,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3881200628,
+  "lat": 53.4564643,
+  "lon": 9.9866855,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3891720982,
+  "lat": 53.5558009,
+  "lon": 10.0416517,
+  "tags": {
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001422",
+    "since": "2014"
+  }
+},
+{
+  "type": "node",
+  "id": 3893561164,
+  "lat": 53.5541925,
+  "lon": 10.0668955,
+  "tags": {
+    "access": "customers",
+    "description": "Straße/Bahnsteig U2 und U4, Richtung: Niendorf Nord und HafenCity Universität",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "M.S. Aufzüge.",
+    "operator": "HOCHBAHN",
+    "ref": "2593",
+    "since": "2015"
+  }
+},
+{
+  "type": "node",
+  "id": 3893561424,
+  "lat": 53.5556410,
+  "lon": 10.0552318,
+  "tags": {
+    "description": "Straße/Bahnsteig/Tunnel U2, Richtung: Niendorf Nord/ Mümmelmannsberg",
+    "highway": "elevator",
+    "indoor": "yes",
+    "manufacturer": "Hütter Aufzüge",
+    "note": "Postion nicht korrekt",
+    "operator": "HOCHBAHN",
+    "ref": "1001392",
+    "since": "2014",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3898099742,
+  "lat": 53.5716120,
+  "lon": 9.9527325,
+  "tags": {
+    "access": "customers",
+    "description": "Straße/Bahnsteig U2, Richtung: Niendorf Nord/ Mümmelmannsberg",
+    "highway": "elevator",
+    "indoor": "yes",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001377",
+    "since": "2013",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3898140524,
+  "lat": 53.5676438,
+  "lon": 9.9699568,
+  "tags": {
+    "description": "Bahnsteig U2, Richtung: Niendorf Nord;Mümmelmannsberg/Bahnsteig U3, Richtung: Hbf Süd/Wandsbek Gartenstadt",
+    "highway": "elevator",
+    "level": "-1;-2",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "931358",
+    "since": "1994"
+  }
+},
+{
+  "type": "node",
+  "id": 3898140530,
+  "lat": 53.5679786,
+  "lon": 9.9701748,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U3, Richtung: Barmbek",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "931357",
+    "since": "1994",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3901949942,
+  "lat": 53.4575772,
+  "lon": 9.9872192,
+  "tags": {
+    "description": "Aufzug",
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 3913001037,
+  "lat": 53.4893944,
+  "lon": 10.1577770,
+  "tags": {
+    "highway": "elevator",
+    "level": "0;1"
+  }
+},
+{
+  "type": "node",
+  "id": 3928806991,
+  "lat": 53.5962966,
+  "lon": 9.9061281,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig S21 Ri. Aumühle und Elbgaustraße, S3 Ri. Pinneberg und Stade und A1 Ri. Neumünster",
+    "highway": "elevator",
+    "level": "1;0",
+    "manufacturer": "OTIS",
+    "operator": "DB Station & Service",
+    "ref": "47KAE077",
+    "since": "2005"
+  }
+},
+{
+  "type": "node",
+  "id": 3929637884,
+  "lat": 53.5521377,
+  "lon": 10.0089441,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U3, Richtung: Barmbek und Wandsbek-Gartenstadt",
+    "highway": "elevator",
+    "level": "-1;-2",
+    "manufacturer": "Hütter Aufzüge",
+    "note": "Falls bei den Aufzugsdaten Änderungsbedarf besteht, bitte kurz Bescheid geben.",
+    "operator": "HOCHBAHN",
+    "ref": "10014232",
+    "since": "2014"
+  }
+},
+{
+  "type": "node",
+  "id": 3930576943,
+  "lat": 53.5812652,
+  "lon": 9.9473414,
+  "tags": {
+    "description": "Straße/Bahnsteig U2, Richtung: Niendorf Nord/Mümmelmannsberg",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "0;-1",
+    "name": "Lutterothstraße",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3930926958,
+  "lat": 53.4566943,
+  "lon": 9.9881362,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 3931834035,
+  "lat": 53.5519889,
+  "lon": 10.0101631,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U1, Richtung: Norderstedt Mitte und Ohlstedt/Großhansdorf",
+    "highway": "elevator",
+    "level": "-1;-2",
+    "operator": "HOCHBAHN",
+    "ref": "921340",
+    "since": "1993"
+  }
+},
+{
+  "type": "node",
+  "id": 3933729149,
+  "lat": 53.5532742,
+  "lon": 9.9939417,
+  "tags": {
+    "description": "Zwischengeschoss/Bahnsteig U2 Ri. Mümmelmannsberg; U4 Ri. Billstedt",
+    "highway": "elevator",
+    "level": "-5;-4",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001108",
+    "since": "2009"
+  }
+},
+{
+  "type": "node",
+  "id": 3941034490,
+  "lat": 53.6496955,
+  "lon": 10.0172258,
+  "tags": {
+    "description": "Straße/Bahnsteig U1, Richtung: Norderstedt Mitte und Großhansdorf/Ohlstedt",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "HOCHBAHN",
+    "ref": "281006609",
+    "since": "2006"
+  }
+},
+{
+  "type": "node",
+  "id": 3949071222,
+  "lat": 53.5457846,
+  "lon": 10.0243017,
+  "tags": {
+    "access": "customers",
+    "description": "Bahnsteig/Straße S3 Ri.Pinneberg und Stade, S31 Ri. Harburg Rathaus und Altona",
+    "highway": "elevator",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "281012025",
+    "ref:operator_inventory": "10477624",
+    "since": "2012",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3949485616,
+  "lat": 53.4730844,
+  "lon": 9.8756530,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Unterführung/Bahnsteig S3 Ri. Pinneberg/S31 Ri. Altona und S3 Ri. Stade/S31 Ri. Neugraben",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "OTIS",
+    "ref": "47KAE771",
+    "since": "2008"
+  }
+},
+{
+  "type": "node",
+  "id": 3953237129,
+  "lat": 53.6779918,
+  "lon": 10.0010246,
+  "tags": {
+    "description": "Straße/Tunnel (Bahnsteig) U1 Ri. Norderstedt Mitte und Großhansdorf/Ohlstedt",
+    "highway": "elevator",
+    "indoor": "yes",
+    "manufacturer": "M.S. Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "2595",
+    "since": "2015",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3953490609,
+  "lat": 53.6747703,
+  "lon": 10.0165220,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig U1 Ri. Norderstedt Mitte und Großhansdorf/Ohlstedt",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001376",
+    "since": "2013",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3954639565,
+  "lat": 53.4879216,
+  "lon": 10.1812586,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig S21 Ri. Aumühle und Elbgaustraße",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "ref": "281009086",
+    "since": "2010"
+  }
+},
+{
+  "type": "node",
+  "id": 3954802385,
+  "lat": 53.5619767,
+  "lon": 9.9487254,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig S11, S21, S31",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station&Service",
+    "ref": "281009061",
+    "since": "2010"
+  }
+},
+{
+  "type": "node",
+  "id": 3955258025,
+  "lat": 53.5897485,
+  "lon": 9.9183585,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig S21 Ri. Aumühle und Elbgaustraße und S3 Ri. Pinneberg und Stade",
+    "highway": "elevator",
+    "indoor": "yes",
+    "manufacturer": "OTIS",
+    "ref": "47KAE079",
+    "since": "2005",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3955270633,
+  "lat": 53.5637536,
+  "lon": 9.9657550,
+  "tags": {
+    "capacity": "9",
+    "description": "Schalterhalle/Bahnsteig S11, S21, S31",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "maxweight": "0.9",
+    "ref": "281009060",
+    "ref:elevator_machineid": "281009060",
+    "ref:elevator_operatorid": "10421888",
+    "since": "2010"
+  }
+},
+{
+  "type": "node",
+  "id": 3955284704,
+  "lat": 53.6030506,
+  "lon": 9.8927266,
+  "tags": {
+    "description": "Zugang Straße/Bahnsteig S21 Ri. Aumühle und S3 Ri. Pinneberg und Stade",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "OTIS",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "47KAE773",
+    "ref:operator_inventory": "10352932",
+    "since": "2007",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/"
+  }
+},
+{
+  "type": "node",
+  "id": 3956631399,
+  "lat": 53.4739968,
+  "lon": 9.8504091,
+  "tags": {
+    "description": "Unterführung/Bahnsteig S3 Ri. Pinneberg und S31 Ri. Altona",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "IAO Aschaffenburg",
+    "ref": "94324",
+    "since": "1986"
+  }
+},
+{
+  "type": "node",
+  "id": 3956631402,
+  "lat": 53.4741347,
+  "lon": 9.8504169,
+  "tags": {
+    "description": "Unterführung/Bahnsteig S3 Ri. Pinneberg und S31 Ri. Altona / S3 Ri. Stade",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "GUSTAV AD KOCH",
+    "ref": "124950",
+    "since": "1985"
+  }
+},
+{
+  "type": "node",
+  "id": 3985624896,
+  "lat": 53.4608477,
+  "lon": 9.9801595,
+  "tags": {
+    "description": "Unterführung/Straße",
+    "highway": "elevator",
+    "level": "-1;0",
+    "manufacturer": "M.S. Aufzüge",
+    "ref": "460",
+    "since": "2004"
+  }
+},
+{
+  "type": "node",
+  "id": 3997486822,
+  "lat": 53.6323657,
+  "lon": 10.0067129,
+  "tags": {
+    "description": "Parkhaus/Abflug Terminal 2/Bahnsteig S1",
+    "highway": "elevator",
+    "level": "-2;-1;0",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "281007604",
+    "ref:operator_inventory": "10360023",
+    "since": "2008",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/"
+  }
+},
+{
+  "type": "node",
+  "id": 4009379450,
+  "lat": 53.4980261,
+  "lon": 10.0067173,
+  "tags": {
+    "description": "Überführung/Bahnsteig S3 Ri. Stade und Pinneberg, S31 Altona und Harburg Rathaus",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "ref": "281012026",
+    "since": "2013",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4009465016,
+  "lat": 53.4562694,
+  "lon": 9.9920899,
+  "tags": {
+    "description": "Bahnsteig Gleis 1+2/Überführung zur S-Bahn und Gleise 3+4 und 5+6 und zum Haupteingang",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "1;0",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "281010056",
+    "ref:operator_inventory": "10467966",
+    "since": "2011",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4009496811,
+  "lat": 53.4561789,
+  "lon": 9.9911054,
+  "tags": {
+    "description": "Bahnsteig Gleis 5+6/Überführung zur S-Bahn, Gleise 1+2 und 3+4 und zum Haupteingang",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "-1;0",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "281010058",
+    "ref:operator_inventory": "10467969",
+    "since": "2011",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4010572153,
+  "lat": 53.5531916,
+  "lon": 9.9932667,
+  "tags": {
+    "entrance": "yes",
+    "entrance_marker:s-train": "yes",
+    "entrance_marker:subway": "yes",
+    "entrance_name": "Alsterpavillion",
+    "highway": "elevator",
+    "railway": "subway_entrance",
+    "ref": "3",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4012268209,
+  "lat": 53.4567058,
+  "lon": 9.9934592,
+  "tags": {
+    "description": "Bahnsteig S3/P+R und Unterführung zum Fernverkehr (Gleise 1-6)",
+    "highway": "elevator",
+    "level": "-2;0",
+    "manufacturer": "ThyssenKrupp",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4012268212,
+  "lat": 53.4567247,
+  "lon": 9.9934593,
+  "tags": {
+    "description": "Bahnsteig S3/P+R und Unterführung zum Fernverkehr (Gleise 1-6)",
+    "highway": "elevator",
+    "level": "-2;0",
+    "manufacturer": "ThyssenKrupp",
+    "ref": "281005608",
+    "since": "2005",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4012268215,
+  "lat": 53.4567437,
+  "lon": 9.9934595,
+  "tags": {
+    "description": "Bahnsteig S3/P+R und Unterführung zum Fernverkehr (Gleise 1-6)",
+    "highway": "elevator",
+    "level": "-2;0",
+    "manufacturer": "ThyssenKrupp",
+    "ref": "281005609",
+    "since": "2005",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4012281207,
+  "lat": 53.4569948,
+  "lon": 9.9896087,
+  "tags": {
+    "description": "Zugang Busanlage/Unterführung zur S3 und zum Fernverkehr (Gleise 1-6)",
+    "highway": "elevator",
+    "level": "-1;0",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4012380419,
+  "lat": 53.5529960,
+  "lon": 9.9938160,
+  "tags": {
+    "description": "Zwischengeschoss",
+    "highway": "elevator",
+    "level": "-3;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "891283",
+    "since": "2009"
+  }
+},
+{
+  "type": "node",
+  "id": 4021615674,
+  "lat": 53.4561710,
+  "lon": 9.9915783,
+  "tags": {
+    "description": "Bahnsteig Gleise 3+4",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "-1;0",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "281010057",
+    "ref:operator_inventory": "10467968",
+    "since": "2011",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4027487348,
+  "lat": 53.5520514,
+  "lon": 9.9347884,
+  "tags": {
+    "description": "Busanlage/Schalterhalle/Bahnsteig Gleis 3 und 4",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "-2;-1;0;1",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "281010055",
+    "ref:operator_inventory": "10484324",
+    "since": "2013",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4034103651,
+  "lat": 53.5516366,
+  "lon": 9.9345378,
+  "tags": {
+    "description": "Busanlage/Schalterhalle/Bahnsteig Gleis 1 und 2",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "-2;-1;0",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "281010054",
+    "ref:operator_inventory": "10484325",
+    "since": "2011",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4036160978,
+  "lat": 53.5643109,
+  "lon": 9.8143364,
+  "tags": {
+    "capacity:persons": "12",
+    "description": "Schalterhalle/Bahnsteig S1",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "ThyssenKrupp",
+    "maxweight": "0.9",
+    "operator": "S-Bahn Hamburg",
+    "ref": "281010006",
+    "speech_output:de": "yes",
+    "tactile_writing:braille:de": "yes",
+    "year_of_construction": "2010"
+  }
+},
+{
+  "type": "node",
+  "id": 4039471226,
+  "lat": 53.5534282,
+  "lon": 9.9940177,
+  "tags": {
+    "description": "Zwischengeschoss/Bahnsteig U2 Ri. Niendord Nord; U4 Ri. HafenCity Universität",
+    "highway": "elevator",
+    "level": "-5;-4",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001107",
+    "since": "2009"
+  }
+},
+{
+  "type": "node",
+  "id": 4050090414,
+  "lat": 53.5875275,
+  "lon": 10.0441184,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U3 Ri. Schlump, HBF Süd/ Wandsbek-Gartenstadt",
+    "highway": "elevator",
+    "level": "1;2",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "B",
+    "since": "2010"
+  }
+},
+{
+  "type": "node",
+  "id": 4050090432,
+  "lat": 53.5876292,
+  "lon": 10.0441287,
+  "tags": {
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "0;1",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4052423508,
+  "lat": 53.5830805,
+  "lon": 9.7584264,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig S1",
+    "entrance": "yes",
+    "entrance_marker:s-train": "yes",
+    "highway": "elevator",
+    "level": "1;-1",
+    "manufacturer": "OTIS",
+    "ref": "47KAJ501",
+    "since": "2008"
+  }
+},
+{
+  "type": "node",
+  "id": 4059555100,
+  "lat": 53.5461557,
+  "lon": 9.9724837,
+  "tags": {
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "0",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4064788610,
+  "lat": 53.6356530,
+  "lon": 10.0683624,
+  "tags": {
+    "description": "Unterführung/Bahnsteig S1 Ri. Wedel und Airport/Poppenbüttel",
+    "highway": "elevator",
+    "level": "1;0",
+    "manufacturer": "ThyssenKrupp",
+    "ref": "281009063",
+    "since": "2009"
+  }
+},
+{
+  "type": "node",
+  "id": 4107710592,
+  "lat": 53.6329646,
+  "lon": 10.0066385,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Parkhaus/Abflug Terminal 1/Bahnsteig S1",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "-2;-1;0",
+    "manufacturer": "ThyssenKrupp",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "281007605",
+    "ref:operator_inventory": "10360025",
+    "since": "2008",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/"
+  }
+},
+{
+  "type": "node",
+  "id": 4109129785,
+  "lat": 53.5523270,
+  "lon": 9.9350398,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Zugang zum Geschäft (Mediamarkt)",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "KONE",
+    "operator": "DB Station & Service",
+    "ref:manufacturer_inventory": "5940017",
+    "ref:operator_inventory": "10097636",
+    "source": "http://data.deutschebahn.com/dataset/aufzug/"
+  }
+},
+{
+  "type": "node",
+  "id": 4121046349,
+  "lat": 53.6334176,
+  "lon": 10.0062106,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "elevator",
+    "level": "-1;0"
+  }
+},
+{
+  "type": "node",
+  "id": 4121196949,
+  "lat": 53.6318791,
+  "lon": 10.0064021,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "elevator",
+    "level": "-1;0"
+  }
+},
+{
+  "type": "node",
+  "id": 4132678320,
+  "lat": 53.5461541,
+  "lon": 9.9722959,
+  "tags": {
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "-2",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4148002096,
+  "lat": 53.4568243,
+  "lon": 9.9872590,
+  "tags": {
+    "highway": "elevator",
+    "name": "Aufzug"
+  }
+},
+{
+  "type": "node",
+  "id": 4170545663,
+  "lat": 53.6042754,
+  "lon": 10.0115013,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 4177885333,
+  "lat": 53.5570376,
+  "lon": 9.9686393,
+  "tags": {
+    "access": "customers",
+    "description": "Straße/Bahnsteig U3 Ri. Wandsbek-Gartenstadt und Ri. Barmbek",
+    "highway": "elevator",
+    "indoor": "yes",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001404",
+    "since": "2014",
+    "start_date": "Aug 2014",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4193565429,
+  "lat": 53.4655743,
+  "lon": 9.9628286,
+  "tags": {
+    "access": "customers",
+    "description": "Straße/Bahnsteig S3 Ri. Pinneberg/S31 Ri. Altona und S3 Ri. Stade/S31 Ri. Neugraben",
+    "highway": "elevator",
+    "level": "0;-2",
+    "manufacturer": "Thyssen Krupp"
+  }
+},
+{
+  "type": "node",
+  "id": 4195420059,
+  "lat": 53.5794383,
+  "lon": 9.9309480,
+  "tags": {
+    "description": "Schalterhalle/Bahnsteig S21 Ri. Aumühle und Elbgaustr. und S3 Ri. Pinneberg und Stade",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "ThyssenKrupp",
+    "ref": "281009062",
+    "since": "2010",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4219184038,
+  "lat": 53.5579687,
+  "lon": 9.9896183,
+  "tags": {
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "0;-1",
+    "operator": "Hochbahn",
+    "start_date": "2016",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4219184039,
+  "lat": 53.5582637,
+  "lon": 9.9895687,
+  "tags": {
+    "access": "customers",
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "-1;-2",
+    "operator": "Hochbahn",
+    "start_date": "2016",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4228033649,
+  "lat": 53.5558538,
+  "lon": 9.9879662,
+  "tags": {
+    "description": "Straße/Schalterhalle",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001384",
+    "since": "2013"
+  }
+},
+{
+  "type": "node",
+  "id": 4242370644,
+  "lat": 53.6503384,
+  "lon": 10.1630239,
+  "tags": {
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001066",
+    "since": "2006"
+  }
+},
+{
+  "type": "node",
+  "id": 4242555581,
+  "lat": 53.5998371,
+  "lon": 9.9946366,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig, U1 Ri. Ohlstedt/Großhansdorf und Norderstedt Mitte",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "1001118",
+    "since": "2007"
+  }
+},
+{
+  "type": "node",
+  "id": 4254007742,
+  "lat": 53.5282903,
+  "lon": 10.1500304,
+  "tags": {
+    "description": "Straße/Bahnsteig U2, Richtung: Niendorf Nord/ Mümmelmannsberg",
+    "highway": "elevator",
+    "level": "-2;0",
+    "manufacturer": "Grako Aufzüge",
+    "name": "Mümmelmannsberg",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "P1KAU625",
+    "since": "2013",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4254420789,
+  "lat": 53.6094067,
+  "lon": 10.0221641,
+  "tags": {
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "1",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4255707435,
+  "lat": 53.5409760,
+  "lon": 10.1392131,
+  "tags": {
+    "description": "Straße/Bahnsteig U2, Richtung: Mümmelmannsberg",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "Hans Lutz",
+    "operator": "HOCHBAHN",
+    "ref": "7546",
+    "since": "1980"
+  }
+},
+{
+  "type": "node",
+  "id": 4255707452,
+  "lat": 53.5411043,
+  "lon": 10.1392183,
+  "tags": {
+    "description": "Straße/Bahnsteig U2, Richtung: Niendorf Nord",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "Hans Lutz",
+    "operator": "HOCHBAHN",
+    "since": "1980"
+  }
+},
+{
+  "type": "node",
+  "id": 4256009062,
+  "lat": 53.5539140,
+  "lon": 10.0846621,
+  "tags": {
+    "access": "customers",
+    "description": "Straße/Bahnsteig U2, Richtung: Niendorf Nord/ Mümmelmannsberg",
+    "entrance": "yes",
+    "entrance_marker:subway": "yes",
+    "highway": "elevator",
+    "level": "0;-1",
+    "manufacturer": "Hütter Aufzüge",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "1001237",
+    "since": "2010",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4258154360,
+  "lat": 53.6358455,
+  "lon": 9.9523827,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Straße/Bahnsteig U2, Richtung: Niendorf Nord",
+    "highway": "elevator",
+    "level": "-2;0",
+    "manufacturer": "H. Hütter JR.Hamburg",
+    "name": "Schippelsweg Richtung Niendorf Nord",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "ref": "891267",
+    "since": "1990",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4258216460,
+  "lat": 53.5812303,
+  "lon": 9.9473497,
+  "tags": {
+    "description": "Straße/Bahnsteig U2, Richtung: Niendorf Nord/Mümmelmannsberg",
+    "entrance": "yes",
+    "entrance_marker:subway": "yes",
+    "highway": "elevator",
+    "level": "0;-1",
+    "name": "Lutterothstraße",
+    "operator": "HOCHBAHN",
+    "railway": "subway_entrance",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4316705436,
+  "lat": 53.5864072,
+  "lon": 10.1229817,
+  "tags": {
+    "highway": "elevator",
+    "level": "0;-1",
+    "name": "Fahrstuhl zum Bahnsteig"
+  }
+},
+{
+  "type": "node",
+  "id": 4428866214,
+  "lat": 53.5711534,
+  "lon": 10.0605825,
+  "tags": {
+    "highway": "elevator",
+    "indoor": "yes",
+    "level": "-1-4"
+  }
+},
+{
+  "type": "node",
+  "id": 4513983218,
+  "lat": 53.5882925,
+  "lon": 9.9729606,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 4541180745,
+  "lat": 53.6098492,
+  "lon": 9.9013085,
+  "tags": {
+    "highway": "elevator",
+    "level": "-1;0",
+    "operator": "AKN Eisenbahn AG"
+  }
+},
+{
+  "type": "node",
+  "id": 4541180746,
+  "lat": 53.6098723,
+  "lon": 9.9011659,
+  "tags": {
+    "highway": "elevator",
+    "level": "-1;0",
+    "operator": "AKN Eisenbahn AG"
+  }
+},
+{
+  "type": "node",
+  "id": 4697038403,
+  "lat": 53.5415285,
+  "lon": 9.9845085,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 4697949071,
+  "lat": 53.5353924,
+  "lon": 10.0238700,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 4723879961,
+  "lat": 53.5925688,
+  "lon": 10.0752097,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U1, Richtung: Norderstedt Mitte; U3, Richtung: Barmbek/Hbf Süd",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Grako Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "P1NAU627",
+    "since": "2014"
+  }
+},
+{
+  "type": "node",
+  "id": 4723879966,
+  "lat": 53.5924591,
+  "lon": 10.0753103,
+  "tags": {
+    "access": "customers",
+    "description": "Schalterhalle/Bahnsteig U1, Richtung: Großhansdorf und Ohlstedt; U3, Richtung: Wandsbek-Gartenstadt",
+    "highway": "elevator",
+    "level": "0;1",
+    "manufacturer": "Grako Aufzüge",
+    "operator": "HOCHBAHN",
+    "ref": "P1NAU626",
+    "since": "2014"
+  }
+},
+{
+  "type": "node",
+  "id": 4760054205,
+  "lat": 53.6036210,
+  "lon": 10.0387059,
+  "tags": {
+    "description": "Zugang Parkhaus",
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 4760072815,
+  "lat": 53.6036060,
+  "lon": 10.0363156,
+  "tags": {
+    "description": "Zugang Parkhaus",
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 4760072816,
+  "lat": 53.6037251,
+  "lon": 10.0374920,
+  "tags": {
+    "description": "Zugang Parkhaus",
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 4784302166,
+  "lat": 53.6529374,
+  "lon": 10.1860128,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 4796445293,
+  "lat": 53.6646450,
+  "lon": 10.1555938,
+  "tags": {
+    "access": "customers",
+    "highway": "elevator",
+    "level": "-1;0",
+    "operator": "Hochbahn",
+    "start_date": "2017-03-31"
+  }
+},
+{
+  "type": "node",
+  "id": 4852347588,
+  "lat": 53.5999562,
+  "lon": 9.9338252,
+  "tags": {
+    "access": "no",
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 4852347589,
+  "lat": 53.5995578,
+  "lon": 9.9335250,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 4852351161,
+  "lat": 53.5996009,
+  "lon": 9.9341977,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 4852351167,
+  "lat": 53.5990532,
+  "lon": 9.9337362,
+  "tags": {
+    "access": "no",
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 4852369289,
+  "lat": 53.5994719,
+  "lon": 9.9317791,
+  "tags": {
+    "highway": "elevator"
+  }
+},
+{
+  "type": "node",
+  "id": 4852375630,
+  "lat": 53.5998285,
+  "lon": 9.9326977,
+  "tags": {
+    "access": "no",
+    "highway": "elevator"
+  }
+}
+
+  ]
+}
