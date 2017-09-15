@@ -9,15 +9,15 @@ const GEOFOX_URL = 'https://geofox.hvv.de/data-service/rest/elevators/stations/'
   FCM_APPID = '';
 
 
-devicesDB.init(); 
+var Devices = new devicesDB(); 
 	
 // a device has subscribed to service and sends token:
 serverInstance.get('/subscribe', function (req, res) {
-  devicesDB.subscribe(res.query.token);
+  Devices.subscribe(res.query.token);
 })
 // a device has unsubscribed to service and sends token:
 serverInstance.get('/unsubscribe', function (req, res) {
-  devicesDB.unsubscribe(res.query.token);
+  Devices.unsubscribe(res.query.token);
 })
 
 // start server on port 80 
@@ -29,15 +29,12 @@ serverInstance.listen(8888, function () {
 
 
 
-var _sendNotifications = diffs => {
-  console.log("Start _sendNotifications");
+async function _sendNotifications(diffs) {
   if (!diffs) {
     console.log("nix zu tun. Status unverändert");
     return;
   }
-   devicesDB.getAllDevices().then((deviceTokens)=>{
-console.log("XXXX")
-  console.log(deviceTokens);
+  var deviceTokens = await Devices.getAll();
   if (!deviceTokens || deviceTokens.length==0) {
       console.log("nix zu tun. Niemand ist neugierig");
       return;
@@ -51,17 +48,12 @@ console.log("XXXX")
       method : 'POST',
       headers : {
         'Content-Type': 'application/json',
-        'Authorization' : "key=" + FCM_APPID
+        'Authorization' : "key="  + FCM_APPID
       },
       body: JSON.stringify(body) 
     };
     fetch(FCM_ENDPOINT,options)
        .then(res=>{}).catch((err=>{}));
-
-   }).catch((err)=>{
-     console.log(err);
-   });
-  
 }
 // cronjob triggers this function to get states of all elevators
 let _fetchStateAndGetDiff=() => {

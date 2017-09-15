@@ -10,8 +10,8 @@ const onError= err => {
 };
 
 
-module.exports = {
-	init : () => { 
+module.exports = class {
+	constructor () { 
 		let db = new sqlite3.Database(absDBPath);
 		db.run('CREATE TABLE IF NOT EXISTS devices(token text)');	
 		db.close(err => {
@@ -19,18 +19,18 @@ module.exports = {
 				return console.log(err.message);
 			}
 		});	
-	},
-	subscribeDevice : token => {
+	};
+	subscribe(token)  {
     let db = new sqlite3.Database(absDBPath,sqlite3.OPEN_READWRITE);
 		db.run('INSERT INTO devices VALUES (?)',[token],onError);	    
 		db.close();
-	},
-	unsubscribeDevice : token => {
+	};
+	unsubscribe(token) {
     let db = new sqlite3.Database(absDBPath,sqlite3.OPEN_READWRITE);
 		db.run('DELETE FROM devices WHERE token=?',token,onError);		
 		db.close();
-	},
-    getAllDevices : (_cb) => {
+	};
+    getAll() {
 		var devices = [];
 		let db = new sqlite3.Database(absDBPath);
 		return new Promise((resolve, reject) => {
