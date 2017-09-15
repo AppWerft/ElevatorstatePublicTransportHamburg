@@ -2,14 +2,12 @@
 
 const serverInstance = require('express')();
 
-const elevatorStates = require('./elevatorstates'); 
-
 const  FCM_ENDPOINT = 'https://fcm.googleapis.com/fcm/send',
   FCM_APPID = '';
 
 
 var Devices = new require('./devicesdb')(); 
-var Fetcher = new require('elevatorstates')();
+var Fetcher = new require('./statefetcher')();
 	
 // a device has subscribed to service and sends token:
 serverInstance.get('/subscribe', function (req, res) {
@@ -28,7 +26,7 @@ serverInstance.listen(8888, function () {
 });
 
 Fetcher.start();
-Fetcher.on(data, _sendNotifications);
+Fetcher.on(data, _sendNotifications); 
 
 
 async function _sendNotifications(diffs) {
