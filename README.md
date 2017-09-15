@@ -14,12 +14,10 @@ With [overpass](http://overpass-turbo.eu/) and this request:
 [out:json];
 area[name="Hamburg"];
 (
-  // query part for: “highway=elevator”
   node["highway"="elevator"](area);
   way["highway"="elevator"](area);
   relation["highway"="elevator"](area);
 );
-// print results
 out body;
 >;
 out skel qt;
