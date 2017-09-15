@@ -1,14 +1,13 @@
 "use strict"
 
 var sqlite3 = require('sqlite3').verbose();
-const absDBPath = require('path').resolve(__dirname, "devices.db");
+const absDBPath = require('path').resolve(__dirname, "SubscribedDevices.sqlite");
 
 const onError= err => {
 	if (err) {
 		return console.log(err.message);
 	}
 };
-
 
 module.exports = class {
 	constructor () { 
@@ -42,17 +41,11 @@ module.exports = class {
 				 rows.forEach(row=>{
 					  devices.push(row.token);
 				 })
-					  
 			  }
 			  db.close();
-			  console.log(devices);
 			  resolve(devices);
 		  });
-
-		});	
-
-		
-		
+		});			
 	}	   	
 };
 
