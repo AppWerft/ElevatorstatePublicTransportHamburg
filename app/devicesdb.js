@@ -19,17 +19,20 @@ module.exports = class {
 			}
 		});	
 	};
+	
 	subscribe(token)  {
-    let db = new sqlite3.Database(absDBPath,sqlite3.OPEN_READWRITE);
+    	let db = new sqlite3.Database(absDBPath,sqlite3.OPEN_READWRITE);
 		db.run('INSERT INTO devices VALUES (?)',[token],onError);	    
 		db.close();
 	};
+	
 	unsubscribe(token) {
-    let db = new sqlite3.Database(absDBPath,sqlite3.OPEN_READWRITE);
+    	let db = new sqlite3.Database(absDBPath,sqlite3.OPEN_READWRITE);
 		db.run('DELETE FROM devices WHERE token=?',token,onError);		
 		db.close();
 	};
-    getAll() {
+	
+	getAll() {
 		var devices = [];
 		let db = new sqlite3.Database(absDBPath);
 		return new Promise((resolve, reject) => {
