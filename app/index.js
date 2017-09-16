@@ -3,12 +3,13 @@
 const serverInstance = require('express')();
 
 const  FCM_ENDPOINT = 'https://fcm.googleapis.com/fcm/send',
-  FCM_APPID = '';
-
-const Devices = require('./devicesdb'); 
-const Fetcher = require('./statefetcher');
-
-var mDevices = new Devices();
+  FCM_APPID = '',
+  PORT = 8888,
+  Devices = require('./devicesdb'),
+  Fetcher = require('./statefetcher'),
+  Notification = require('./notification');
+  
+let mDevices = new Devices();
 	
 // a device has subscribed to service and sends token:
 serverInstance.get('/subscribe', function (req, res) {
@@ -20,15 +21,16 @@ serverInstance.get('/unsubscribe', function (req, res) {
 })
 
 // start server on port 80 
-serverInstance.listen(8888, function () {
-  console.log('server started.');
+serverInstance.listen(PORT, function () {
+  console.log('Server started at port ' + PORT );
 });
 
-var mFetcher = new Fetcher();
+let mFetcher = new Fetcher();
 mFetcher.start();
 
-mFetcher.on('data', (diff)=> {
-  new require('notification')(diff);
+mFetcher.on('data', (payload)=> {
+  new Notification(payload);
+   
 }); 
 
 
