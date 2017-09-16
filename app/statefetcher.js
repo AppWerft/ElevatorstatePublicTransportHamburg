@@ -30,7 +30,7 @@ class Fetcher extends EventEmitter  {
     console.log("Start fetch #" + this.count++);
     const request = require('request');
     request(GEOFOX_URL, (error, response, body)=> {
-      if (!error && response.statusCode === 200) {
+      if (!error && response && response.statusCode === 200) {
         try {
           const json = JSON.parse(body)
           var newState = {};
@@ -57,7 +57,7 @@ class Fetcher extends EventEmitter  {
         console.log(E);
       }
       } else {
-        console.log("Got an error: ", error, ", status code: ", response.statusCode)
+        //console.log("Got an error: ", error, ", status code: ", response.statusCode)
       }
     })
   }
