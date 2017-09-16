@@ -27,7 +27,6 @@ class PushNotification {
       body: JSON.stringify(body) 
     };
     fetch(FCM_ENDPOINT,options).then(res=>{}).catch((err=>{}));    
-    return this;
  }
 };
 
