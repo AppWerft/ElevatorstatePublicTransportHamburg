@@ -12,7 +12,6 @@ class PushNotification {
    };
 
    _sendNotification(res) { 
-    
     if (!deviceTokens || deviceTokens.length==0) {
       console.log("nix zu tun. Niemand ist neugierig");
       return;
@@ -30,7 +29,7 @@ class PushNotification {
         }) 
     };
     fetch(FCM_ENDPOINT, options).then(res=>{}).catch((err=>{}));    
- }
+  }
 };
 
 module.exports =  PushNotification;
