@@ -2,16 +2,19 @@
 
 const Devices = require('./devicesdb');
 
-class PushNotification {
+module.exports = class {
    constructor (diffs) {
      this.diffs = diffs;
      let mDevices =  new Devices();   
-     var deviceTokens = mDevices.getAll().then((res) => {
-        this._sendNotification();
+     mDevices.getAll().then((res) => {
+        console.log(res);
+        this._sendNotification(res);
+     }).catch(err=>{
+       console.log("issues during db requesting " + err);
      });
    };
 
-   _sendNotification(res) { 
+   _sendNotification(deviceTokens) { 
     if (!deviceTokens || deviceTokens.length==0) {
       console.log("nix zu tun. Niemand ist neugierig");
       return;
@@ -32,4 +35,3 @@ class PushNotification {
   }
 };
 
-module.exports =  PushNotification;
