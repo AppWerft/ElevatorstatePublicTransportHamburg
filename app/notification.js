@@ -6,10 +6,9 @@ class PushNotification {
    constructor (diffs) {
      this.diffs = diffs;
      let mDevices =  new Devices();   
-     var deviceTokens = mDevices.getAll().then((res)=>{
-      this._sendNotification();
+     var deviceTokens = mDevices.getAll().then((res) => {
+        this._sendNotification();
      });
-     
    };
 
    _sendNotification(res) { 
