@@ -2,7 +2,7 @@
 Projectfor monitoring state of elevators in Hamburg. It is useful for wheelchair users and Mutties.
 
 ## User story
-As a wheelchair driver or Mutti I want realtime informed about status of public elevators in order to decide in which direction I have to "roll".
+As a wheelchair driver or mother I would like to be informed in realtime about public elevators state in order to decide in which direction I have to "roll".
 
 ## Data sources
 
