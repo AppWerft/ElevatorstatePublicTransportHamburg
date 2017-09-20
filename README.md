@@ -136,4 +136,8 @@ The method get all deviceTokens from local database and sends all notifications.
 
 # Android  App
 
-The app subscribes to server app and receives notifications. In main view is a google map to show current states. In a second tab  is a list of elevators, sorted by distance to it.
+The app subscribes to server app and receives notifications. In main view is a google map to show current states. In a second tab  is a list of elevators, sorted by distance to it. 
+
+## Realization
+
+We plan to build an app in Titanium and in ReactNative
