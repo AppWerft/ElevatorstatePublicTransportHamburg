@@ -16,13 +16,15 @@ serverInstance.get('/', function (req, res) {
   res.send('Server is running');
 })
 // a device has subscribed to service and sends token:
-serverInstance.get('/subscribe', function (req, res) {
-  mDevices.subscribe(res.query.token);
+serverInstance.get('/subscribe', function (req,res) {
+  console.log(req);
+  mDevices.subscribe(req.query.token);
   res.send('Device successful subscribed');
 })
 // a device has unsubscribed to service and sends token:
 serverInstance.get('/unsubscribe', function (req, res) {
-  mDevices.unsubscribe(res.query.token);
+  mDevices.unsubscribe(req.query.token);
+  res.send('Device successful unsubscribed');
 })
 
 // start server on port 80 
