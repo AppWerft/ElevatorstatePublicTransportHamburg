@@ -10,10 +10,10 @@ const  FCM_ENDPOINT = 'https://fcm.googleapis.com/fcm/send',
   Notification = require('./notification');
   
 let mDevices = new Devices();
-
+serverInstance.set('port', (process.env.PORT || PORT));
 // a device has subscribed to service and sends token:
 serverInstance.get('/', function (req, res) {
-  res.send('Server is running');
+  res.send('Se.rver is running');
 })
 // a device has subscribed to service and sends token:
 serverInstance.get('/subscribe', function (req,res) {
@@ -28,7 +28,7 @@ serverInstance.get('/unsubscribe', function (req, res) {
 })
 
 // start server on port 80 
-serverInstance.listen(PORT, function () {
+serverInstance.listen(serverInstance.get('port'), function () {
   console.log('Server started at port ' + PORT );
 });
 
