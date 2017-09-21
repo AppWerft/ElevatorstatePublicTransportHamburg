@@ -32,8 +32,9 @@ class Fetcher extends EventEmitter  {
     const start = new Date().getTime();
     Axios(GEOFOX_URL).then(response => {
       if (response && response.status === 200) {
+        console.log(response.data);
         try {
-          const json = JSON.parse(response.data)
+          const json = response.data;
           var newState = {};
           // extracting hash of all states
           json.stations.forEach(station =>{
