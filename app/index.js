@@ -3,7 +3,7 @@
 const serverInstance = require('express')();
 
 const  FCM_ENDPOINT = 'https://fcm.googleapis.com/fcm/send',
-  FCM_APPID = '',
+  FCM_APPID = '123456',
   PORT = 80,
   Devices = require('./devicesdb'),
   Fetcher = require('./statefetcher'),
@@ -13,7 +13,7 @@ let mDevices = new Devices();
 serverInstance.set('port', (process.env.PORT || PORT));
 // a device has subscribed to service and sends token:
 serverInstance.get('/', function (req, res) {
-  res.send('Se.rver is running');
+  res.send('This is endpoint of MobilityHackathon2017 project of Hamburger Appwerft');
 })
 // a device has subscribed to service and sends token:
 serverInstance.get('/subscribe', function (req,res) {
