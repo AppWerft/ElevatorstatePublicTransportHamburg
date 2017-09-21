@@ -10,10 +10,15 @@ const  FCM_ENDPOINT = 'https://fcm.googleapis.com/fcm/send',
   Notification = require('./notification');
   
 let mDevices = new Devices();
-	
+
+// a device has subscribed to service and sends token:
+serverInstance.get('/', function (req, res) {
+  res.send('Server is running');
+})
 // a device has subscribed to service and sends token:
 serverInstance.get('/subscribe', function (req, res) {
   mDevices.subscribe(res.query.token);
+  res.send('Device successful subscribed');
 })
 // a device has unsubscribed to service and sends token:
 serverInstance.get('/unsubscribe', function (req, res) {
