@@ -117,7 +117,7 @@ This data renders this map:
 ![](./assets/overpass.png)
 
 # Server for sending notifications
-The nodeJS realized server has three tasks
+The [nodeJS realized server](https://elevatorshh.herokuapp.com/) has three tasks:
 
 ## Subscribe/unsubscribe devices
 For this run a http-server with endpoints 
