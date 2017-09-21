@@ -6,7 +6,7 @@
     "sqlite3": "^3.1.11"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node app/index.js",
     "test": "node test.js"
   }
 }
