@@ -13,7 +13,7 @@ let mDevices = new Devices();
 serverInstance.set('port', (process.env.PORT || PORT));
 // a device has subscribed to service and sends token:
 serverInstance.get('/', function (req, res) {
-  res.send('This is endpoint of MobilityHackathon2017 project of Hamburger Appwerft');
+  res.send('<pre>This is endpoint of MobilityHackathon2017 project of Hamburger Appwerft\nThis emdpoint receives the registrations for push notification and if the state of elevators is changed the the server sends messages to all devices.');
 })
 // a device has subscribed to service and sends token:
 serverInstance.get('/subscribe', function (req,res) {
