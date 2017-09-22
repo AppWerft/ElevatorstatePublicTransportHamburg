@@ -1,8 +1,5 @@
 # ElevatorstatePublicTransportHamburg
-Projectfor monitoring state of elevators in Hamburg. It is useful for wheelchair users and Mutties.
-
-## User story
-As a wheelchair driver or mother I would like to be informed in realtime about public elevators state in order to decide in which direction I have to "roll".
+API for monitoring state of elevators in Hamburg. It is useful for wheelchair users and Mutties.
 
 ## Data sources
 
@@ -15,7 +12,7 @@ Coordinates from OSM and actual data from geofox. But there is no reference betw
 
 ### Live request from geofox
 
-[On this Geofox page](http://geofox.hvv.de/jsf/showElevatorStates.seam) we can get retreive actual data. Unfortunatelly the lat/lon position are fictional and only for this special map. An example response can find [here](https://github.com/AppWerft/mobileHackathon2017/blob/master/listofelevatorstates.json)
+[On this Geofox page](http://geofox.hvv.de/jsf/showElevatorStates.seam) we can get [retreive realtimne data](http://geofox.hvv.de/data-service/rest/elevators/stations/). Unfortunatelly the lat/lon position are fictional and only for this special map. An example response can find [here](https://github.com/AppWerft/mobileHackathon2017/blob/master/listofelevatorstates.json)
 
 ```
 {
@@ -117,7 +114,7 @@ This data renders this map:
 ![](./assets/overpass.png)
 
 # Server for sending notifications
-The [nodeJS realized server](https://elevatorshh.herokuapp.com/) has three tasks:
+The nodeJS realized server has three tasks
 
 ## Subscribe/unsubscribe devices
 For this run a http-server with endpoints 
@@ -136,8 +133,4 @@ The method get all deviceTokens from local database and sends all notifications.
 
 # Android  App
 
-The app subscribes to server app and receives notifications. In main view is a google map to show current states. In a second tab  is a list of elevators, sorted by distance to it. 
-
-## Realization
-
-We plan to build an app in Titanium and in ReactNative
+The app subscribes to server app and receives notifications. In main view is a google map to show current states. In a second tab  is a list of elevators, sorted by distance to it.
