@@ -1,7 +1,7 @@
 "use strict"
 
 const Devices = require('./devicesdb'),
-FCM_APPID = '123456';
+FCM_APPID = '1:595170299549:android:a76b4928bb5e657d';
 
 module.exports = class {
    constructor (diffs) {
